@@ -1,1 +1,3 @@
-from: 123qweasd
+info:
+  profile: dev
+  from: git

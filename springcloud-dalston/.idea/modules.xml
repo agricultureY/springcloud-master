@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/config-client/config-client.iml" filepath="$PROJECT_DIR$/config-client/config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consul-client/consul-client.iml" filepath="$PROJECT_DIR$/consul-client/consul-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consul-consumer/consul-consumer.iml" filepath="$PROJECT_DIR$/consul-consumer/consul-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/eureka-client/eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-consumer/eureka-consumer.iml" filepath="$PROJECT_DIR$/eureka-consumer/eureka-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-consumer-hystrix-demotion/eureka-consumer-hystrix-demotion.iml" filepath="$PROJECT_DIR$/eureka-consumer-hystrix-demotion/eureka-consumer-hystrix-demotion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-feign/eureka-feign.iml" filepath="$PROJECT_DIR$/eureka-feign/eureka-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-feign-upload-client/eureka-feign-upload-client.iml" filepath="$PROJECT_DIR$/eureka-feign-upload-client/eureka-feign-upload-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-ribbon/eureka-ribbon.iml" filepath="$PROJECT_DIR$/eureka-ribbon/eureka-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-zuul/eureka-zuul.iml" filepath="$PROJECT_DIR$/eureka-zuul/eureka-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-monitor/hystrix-monitor.iml" filepath="$PROJECT_DIR$/hystrix-monitor/hystrix-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-stream/rabbit-stream.iml" filepath="$PROJECT_DIR$/rabbit-stream/rabbit-stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-stream-product/rabbit-stream-product.iml" filepath="$PROJECT_DIR$/rabbit-stream-product/rabbit-stream-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-dalston.iml" filepath="$PROJECT_DIR$/springcloud-dalston.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trace-consumer/trace-consumer.iml" filepath="$PROJECT_DIR$/trace-consumer/trace-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trace-product/trace-product.iml" filepath="$PROJECT_DIR$/trace-product/trace-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/turbine/turbine.iml" filepath="$PROJECT_DIR$/turbine/turbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/turbine-amqp/turbine-amqp.iml" filepath="$PROJECT_DIR$/turbine-amqp/turbine-amqp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zipkin-server/zipkin-server.iml" filepath="$PROJECT_DIR$/zipkin-server/zipkin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zipkin-stream-consumer/zipkin-stream-consumer.iml" filepath="$PROJECT_DIR$/zipkin-stream-consumer/zipkin-stream-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zipkin-stream-consumer-es/zipkin-stream-consumer-es.iml" filepath="$PROJECT_DIR$/zipkin-stream-consumer-es/zipkin-stream-consumer-es.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zipkin-stream-product/zipkin-stream-product.iml" filepath="$PROJECT_DIR$/zipkin-stream-product/zipkin-stream-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zipkin-stream-product-es/zipkin-stream-product-es.iml" filepath="$PROJECT_DIR$/zipkin-stream-product-es/zipkin-stream-product-es.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zipkin-stream-server/zipkin-stream-server.iml" filepath="$PROJECT_DIR$/zipkin-stream-server/zipkin-stream-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zipkin-stream-server-es/zipkin-stream-server-es.iml" filepath="$PROJECT_DIR$/zipkin-stream-server-es/zipkin-stream-server-es.iml" />
+    </modules>
+  </component>
+</project>

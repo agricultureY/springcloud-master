@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config-client" />
+        <module name="config-server" />
+        <module name="consul-client" />
+        <module name="consul-consumer" />
+        <module name="eureka-client" />
+        <module name="eureka-consumer" />
+        <module name="eureka-consumer-hystrix-demotion" />
+        <module name="eureka-feign" />
+        <module name="eureka-feign-upload-client" />
+        <module name="eureka-ribbon" />
+        <module name="eureka-server" />
+        <module name="eureka-zuul" />
+        <module name="hystrix-monitor" />
+        <module name="rabbit-stream" />
+        <module name="rabbit-stream-product" />
+        <module name="trace-consumer" />
+        <module name="trace-product" />
+        <module name="turbine" />
+        <module name="turbine-amqp" />
+        <module name="zipkin-server" />
+        <module name="zipkin-stream-consumer" />
+        <module name="zipkin-stream-consumer-es" />
+        <module name="zipkin-stream-product" />
+        <module name="zipkin-stream-product-es" />
+        <module name="zipkin-stream-server" />
+        <module name="zipkin-stream-server-es" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hystrix-dashboard" target="1.8" />
+      <module name="hystrix-qweasd" target="1.8" />
+      <module name="stream-consumer" target="1.8" />
+      <module name="transaction-lcn" target="1.8" />
+      <module name="zipking-stream-consumer" target="1.8" />
+      <module name="zipking-stream-product" target="1.8" />
+      <module name="zipking-stream-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

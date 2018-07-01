@@ -1,0 +1,26 @@
+server:
+  port: 8011
+
+spring:
+  application:
+    name: eureka-zuul
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:1111/eureka
+
+#####传统路由配置#####
+#zuul:
+#  routes:
+#    user-service:
+#      path: /user-service/**
+#      url: http://127.0.0.1:7071/
+#      serviceId: user-service
+#    order-service: /order-service/**
+#ribbon:
+#  eureka:
+#    enabled: false
+#user-service:
+#  ribbon:
+#    listOfServers: http://localhost:8080/,http://localhost:8081/

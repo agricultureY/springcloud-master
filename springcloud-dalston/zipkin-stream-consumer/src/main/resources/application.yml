@@ -1,0 +1,14 @@
+server:
+  port: 9023
+spring:
+  application:
+    name: zipkin-stream-consumer
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:1111/eureka

@@ -1,0 +1,11 @@
+server:
+  port: 9012
+spring:
+  application:
+    name: trace-consumer
+  zipkin:
+    base-url: http://127.0.0.1:9016
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:1111/eureka

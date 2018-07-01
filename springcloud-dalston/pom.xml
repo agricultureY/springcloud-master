@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.ycn.springcloud</groupId>
+    <artifactId>springcloud-dalston</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <!--eureka服务注册中心-->
+        <module>eureka-server</module>
+        <!--eureka服务提供者-->
+        <module>eureka-client</module>
+        <!--consul服务提供者-->
+        <module>consul-client</module>
+
+        <!--eureka服务消费者 restTemplate调用服务-->
+        <module>eureka-consumer</module>
+        <!--consul服务消费者-->
+        <module>consul-consumer</module>
+        <!--负载均衡服务消费者-->
+        <module>eureka-ribbon</module>
+        <!--feign调用服务-->
+        <module>eureka-feign</module>
+        <!--feign上传文件客户端-->
+        <module>eureka-feign-upload-client</module>
+
+        <!--配置中心服务端-->
+        <module>config-server</module>
+        <!--配置中心客户端-->
+        <module>config-client</module>
+
+        <!--hystrix restTemplate调用服务降级-->
+        <module>eureka-consumer-hystrix-demotion</module>
+        <!--hystrix 控制面板-->
+        <module>hystrix-monitor</module>
+        <!--hystrix通过HTTP收集监控数据聚合-->
+        <module>turbine</module>
+        <!--hystrix通过消息代理收集聚合信息-->
+        <module>turbine-amqp</module>
+
+        <!--eureka服务网关-->
+        <module>eureka-zuul</module>
+
+        <!--消息驱动  消息消费者-->
+        <module>rabbit-stream</module>
+        <!--消息驱动  消息生产者-->
+        <module>rabbit-stream-product</module>
+
+        <!--zipkin服务-->
+        <module>zipkin-server</module>
+        <!--服务跟踪  服务生产者-->
+        <module>trace-product</module>
+        <!--服务跟踪  服务消费者-->
+        <module>trace-consumer</module>
+
+        <!--zipkin整合MQ-->
+        <module>zipkin-stream-server</module>
+        <module>zipkin-stream-product</module>
+        <module>zipkin-stream-consumer</module>
+
+        <!--es存储跟踪服务-->
+        <module>zipkin-stream-server-es</module>
+        <module>zipkin-stream-product-es</module>
+        <module>zipkin-stream-consumer-es</module>
+
+
+    </modules>
+
+
+</project>

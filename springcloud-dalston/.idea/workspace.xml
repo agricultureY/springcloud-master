@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f17fcc08-ced0-4d65-8baa-3b6682b323ad" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-client/target/" />
+    <ignored path="$PROJECT_DIR$/consul-client/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/consul-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-feign/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-feign-upload-client/target/" />
+    <ignored path="$PROJECT_DIR$/config-server/target/" />
+    <ignored path="$PROJECT_DIR$/config-client/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-consumer-hystrix-demotion/target/" />
+    <ignored path="$PROJECT_DIR$/hystrix-dashboard/target/" />
+    <ignored path="$PROJECT_DIR$/turbine/target/" />
+    <ignored path="$PROJECT_DIR$/turbine-amqp/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/stream-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/rabbit-stream/target/" />
+    <ignored path="$PROJECT_DIR$/hystrix-qweasd/target/" />
+    <ignored path="$PROJECT_DIR$/hystrix-monitor/target/" />
+    <ignored path="$PROJECT_DIR$/rabbit-stream-product/target/" />
+    <ignored path="$PROJECT_DIR$/trace-product/target/" />
+    <ignored path="$PROJECT_DIR$/trace-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/zipkin-server/target/" />
+    <ignored path="$PROJECT_DIR$/zipking-stream-server/target/" />
+    <ignored path="$PROJECT_DIR$/zipking-stream-product/target/" />
+    <ignored path="$PROJECT_DIR$/zipking-stream-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/zipkin-stream-server/target/" />
+    <ignored path="$PROJECT_DIR$/zipkin-stream-product/target/" />
+    <ignored path="$PROJECT_DIR$/zipkin-stream-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/zipkin-stream-server-es/target/" />
+    <ignored path="$PROJECT_DIR$/zipkin-stream-product-es/target/" />
+    <ignored path="$PROJECT_DIR$/zipkin-stream-consumer-es/target/" />
+    <ignored path="$PROJECT_DIR$/transaction-lcn/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="spring-beans.schema" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>va</find>
+      <find>UploadController</find>
+      <find>spring-cloud-netflix-hystrix-amqp</find>
+      <find>logstash</find>
+      <find>pro</find>
+      <find>ontroller</find>
+      <find>spring-boot-starter</find>
+      <find>spring-boot-starter-web</find>
+      <find>&lt;artifactId&gt;zipkin&lt;/artifactId&gt;</find>
+      <find>&lt;artifactId&gt;zipkin-server&lt;/artifactId&gt;</find>
+      <find>&lt;artifactId&gt;zipkin-autoconfigure-ui&lt;/artifactId&gt;</find>
+      <find>&lt;artifactId&gt;spring-cloud-starter-sleuth&lt;/artifactId&gt;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>F:\self\codes\springcloud-dalston</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/rabbit-stream/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/trace-consumer/src/main/java/com/ycn/springcloud/TraceConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/trace-product/src/main/java/com/ycn/springcloud/web/TraceController.java" />
+        <option value="$PROJECT_DIR$/trace-consumer/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/trace-consumer/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/trace-product/src/main/resources/logback-spring.fxml" />
+        <option value="$PROJECT_DIR$/trace-product/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/trace-product/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/trace-product/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/readme.txt" />
+        <option value="$PROJECT_DIR$/zipkin-server/src/main/java/com/ycn/springcloud/ZipkinServerApplication.java" />
+        <option value="$PROJECT_DIR$/zipkin-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/zipkin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/trace-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/trace-product/pom.xml" />
+        <option value="$PROJECT_DIR$/trace-product/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/trace-consumer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/zipking-stream-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/zipking-stream-server/src/main/java/com/ycn/springcloud/ZipkingStreamServerApplication.java" />
+        <option value="$PROJECT_DIR$/zipking-stream-server/pom.xml" />
+        <option value="$PROJECT_DIR$/zipking-stream-consumer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/zipking-stream-product/src/main/java/com/ycn/springcloud/web/TraceController.java" />
+        <option value="$PROJECT_DIR$/zipking-stream-product/pom.xml" />
+        <option value="$PROJECT_DIR$/zipking-stream-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/zipking-stream-product/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/trace-product/src/main/java/com/ycn/springcloud/TraceProductApplication.java" />
+        <option value="$PROJECT_DIR$/zipking-stream-consumer/src/main/java/com/ycn/springcloud/ZipkingStreamConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/zipking-stream-product/src/main/java/com/ycn/springcloud/ZipkingStreamProductApplication.java" />
+        <option value="$PROJECT_DIR$/trace-consumer/src/main/java/com/ycn/springcloud/web/TraceController.java" />
+        <option value="$PROJECT_DIR$/zipking-stream-consumer/src/main/java/com/ycn/springcloud/web/TraceController.java" />
+        <option value="$PROJECT_DIR$/zipkin-stream-server/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-stream-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/zipkin-stream-server/src/main/java/com/ycn/springcloud/ZipkinStreamServerApplication.java" />
+        <option value="$PROJECT_DIR$/zipkin-stream-product/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-stream-product/src/main/java/com/ycn/springcloud/ZipkinStreamProductApplication.java" />
+        <option value="$PROJECT_DIR$/zipkin-stream-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-stream-consumer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/zipkin-stream-consumer/src/main/java/com/ycn/springcloud/ZipkinStreamConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/zipkin-stream-server-es/src/main/java/com/ycn/springcloud/ZipkinStreamServerEsApplication.java" />
+        <option value="$PROJECT_DIR$/zipkin-stream-product-es/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-stream-product-es/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/zipkin-stream-consumer-es/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/zipkin-stream-product-es/src/main/java/com/ycn/springcloud/ZipkinStreamProductEsApplication.java" />
+        <option value="$PROJECT_DIR$/zipkin-stream-consumer-es/src/main/java/com/ycn/springcloud/ZipkinStreamConsumerEsApplication.java" />
+        <option value="$PROJECT_DIR$/zipkin-stream-consumer-es/src/main/java/com/ycn/springcloud/web/TraceController.java" />
+        <option value="$PROJECT_DIR$/zipkin-stream-consumer-es/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-stream-server-es/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/zipkin-stream-server-es/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-stream-server-es/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/java/maven/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="D:\java\maven\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <sortByType ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springcloud-dalston" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-dalston" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springcloud-dalston" type="58d84e3e:PackageViewProjectNode" />
+              <item name="trace-product" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="pom&#9;FILE&#9;file://F:/self/codes/springcloud-dalston/zipkin-stream-server-es/pom.xml" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Properties" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../source/springcloud/tx-lcn-master" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\self\codes\springcloud-dalston\zipkin-stream-server-es\src\main\resources" />
+      <recent name="F:\self\codes\springcloud-dalston" />
+      <recent name="F:\self\codes\springcloud-dalston\zipkin-stream-consumer\src\main\resources" />
+      <recent name="F:\self\codes\springcloud-dalston\zipkin-stream-product\src\main\resources" />
+      <recent name="F:\self\codes\springcloud-dalston\zipkin-stream-server\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ycn.springcloud.web" />
+      <recent name="com.ycn.springcloud.mq" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\self\codes\springcloud-dalston" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ZipkinStreamServerEsApplication">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="rabbit-stream" type="JUnit" factoryName="JUnit">
+      <module name="rabbit-stream" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ycn.springcloud" />
+      <option name="MAIN_CLASS_NAME" value="com.ycn.springcloud.RabbitStreamApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ConfigClientApplication" />
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ConfigServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="EurekaClientApplication1112" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.EurekaClientApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="EurekaClientApplication1113" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.EurekaClientApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="EurekaConsumerHystrixDemotionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-consumer-hystrix-demotion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ycn.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.EurekaConsumerHystrixDemotionApplication" />
+    </configuration>
+    <configuration name="EurekaFeignUploadClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-feign-upload-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.EurekaFeignUploadClientApplication" />
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ycn.springcloud.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.EurekaServerApplication" />
+    </configuration>
+    <configuration name="RabbitStreamApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbit-stream" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.RabbitStreamApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="RabbitStreamAppGroupa" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbit-stream" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.RabbitStreamApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="TraceConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="trace-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ycn.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.TraceConsumerApplication" />
+    </configuration>
+    <configuration name="TraceProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="trace-product" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ycn.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.TraceProductApplication" />
+    </configuration>
+    <configuration name="TurbineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="turbine" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.TurbineApplication" />
+    </configuration>
+    <configuration name="ZipkinStreamConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="zipkin-stream-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ycn.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ZipkinStreamConsumerApplication" />
+    </configuration>
+    <configuration name="ZipkinStreamConsumerEsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zipkin-stream-consumer-es" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ZipkinStreamConsumerEsApplication" />
+    </configuration>
+    <configuration name="ZipkinStreamProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="zipkin-stream-product" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ycn.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ZipkinStreamProductApplication" />
+    </configuration>
+    <configuration name="ZipkinStreamProductEsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zipkin-stream-product-es" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ZipkinStreamProductEsApplication" />
+    </configuration>
+    <configuration name="ZipkinStreamServerEsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="zipkin-stream-server-es" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ycn.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ZipkinStreamServerEsApplication" />
+    </configuration>
+    <configuration name="configserver7075" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ConfigServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.rabbit-stream" />
+      <item itemvalue="Spring Boot.RabbitStreamAppGroupa" />
+      <item itemvalue="Spring Boot.RabbitStreamApp" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.EurekaClientApplication1112" />
+      <item itemvalue="Spring Boot.EurekaClientApplication1113" />
+      <item itemvalue="Spring Boot.EurekaFeignUploadClientApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.configserver7075" />
+      <item itemvalue="Spring Boot.ConfigClientApplication" />
+      <item itemvalue="Spring Boot.TurbineApplication" />
+      <item itemvalue="Spring Boot.EurekaConsumerHystrixDemotionApplication" />
+      <item itemvalue="Spring Boot.ZipkinStreamConsumerEsApplication" />
+      <item itemvalue="Spring Boot.ZipkinStreamProductEsApplication" />
+      <item itemvalue="Spring Boot.TraceProductApplication" />
+      <item itemvalue="Spring Boot.TraceConsumerApplication" />
+      <item itemvalue="Spring Boot.ZipkinStreamConsumerApplication" />
+      <item itemvalue="Spring Boot.ZipkinStreamProductApplication" />
+      <item itemvalue="Spring Boot.ZipkinStreamServerEsApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ZipkinStreamServerEsApplication" />
+        <item itemvalue="Spring Boot.ZipkinStreamProductApplication" />
+        <item itemvalue="Spring Boot.ZipkinStreamConsumerApplication" />
+        <item itemvalue="Spring Boot.TraceConsumerApplication" />
+        <item itemvalue="Spring Boot.TraceProductApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f17fcc08-ced0-4d65-8baa-3b6682b323ad" name="Default" comment="" />
+      <created>1528804926068</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528804926068</updated>
+      <workItem from="1528804934186" duration="4354000" />
+      <workItem from="1528850880922" duration="23482000" />
+      <workItem from="1528938364056" duration="14056000" />
+      <workItem from="1529023854737" duration="19997000" />
+      <workItem from="1529297969902" duration="1342000" />
+      <workItem from="1529476532601" duration="14684000" />
+      <workItem from="1529542142466" duration="20707000" />
+      <workItem from="1529628643177" duration="11788000" />
+      <workItem from="1529720074241" duration="4089000" />
+      <workItem from="1530096086918" duration="7734000" />
+      <workItem from="1530162328920" duration="15592000" />
+      <workItem from="1530233275359" duration="11916000" />
+      <workItem from="1530319455374" duration="13555000" />
+      <workItem from="1530360614758" duration="7357000" />
+      <workItem from="1530410501368" duration="7865000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="FeignUpload - 2018.06.15 at 10h 50m 48s.xml">
+      <configuration name="FeignUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="rabbit-stream - 2018.06.22 at 18h 54m 29s.xml">
+      <configuration name="rabbit-stream" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="rabbit-stream - 2018.06.22 at 18h 55m 20s.xml">
+      <configuration name="rabbit-stream" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="rabbit-stream - 2018.06.23 at 10h 44m 46s.xml">
+      <configuration name="rabbit-stream" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="rabbit-stream - 2018.06.27 at 18h 56m 52s.xml">
+      <configuration name="rabbit-stream" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="rabbit-stream - 2018.06.27 at 19h 01m 18s.xml">
+      <configuration name="rabbit-stream" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="rabbit-stream - 2018.06.27 at 19h 08m 24s.xml">
+      <configuration name="rabbit-stream" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="rabbit-stream - 2018.06.27 at 19h 50m 32s.xml">
+      <configuration name="rabbit-stream" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="rabbit-stream - 2018.06.27 at 19h 52m 03s.xml">
+      <configuration name="rabbit-stream" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="rabbit-stream - 2018.06.27 at 19h 54m 39s.xml">
+      <configuration name="rabbit-stream" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="178518000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.22453083" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="1" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Structure" order="10" sideWeight="0.5365517" side_tool="true" weight="0.17225201" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4985755" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32905984" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32946146" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32900432" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4634483" visible="true" weight="0.17962466" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="53" column="12" lean-forward="true" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/maven/maven_repo/org/springframework/cloud/spring-cloud-sleuth-core/1.2.0.RELEASE/spring-cloud-sleuth-core-1.2.0.RELEASE.jar!/org/springframework/cloud/sleuth/instrument/web/TraceWebAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="719">
+          <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trace-consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="203" selection-start-line="203" selection-end-line="203" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-server/src/main/java/com/ycn/springcloud/ZipkinServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trace-product/src/main/java/com/ycn/springcloud/web/TraceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipking-stream-product/src/main/java/com/ycn/springcloud/web/TraceController.java" />
+    <entry file="file://$PROJECT_DIR$/trace-product/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trace-product/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trace-product/src/main/java/com/ycn/springcloud/TraceProductApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trace-consumer/src/main/java/com/ycn/springcloud/TraceConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trace-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="47" selection-start-line="43" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trace-consumer/src/main/java/com/ycn/springcloud/web/TraceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipking-stream-consumer/src/main/java/com/ycn/springcloud/web/TraceController.java" />
+    <entry file="file://$PROJECT_DIR$/zipkin-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipking-stream-server/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/zipking-stream-server/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/zipkin-stream-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipking-stream-server/src/main/resources/zipkin.sql" />
+    <entry file="file://$PROJECT_DIR$/zipking-stream-server/src/main/java/com/ycn/springcloud/ZipkingStreamServerApplication.java" />
+    <entry file="file://$PROJECT_DIR$/zipkin-stream-server/src/main/java/com/ycn/springcloud/ZipkinStreamServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipking-stream-product/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/zipkin-stream-product/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="67" column="27" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipking-stream-product/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/zipking-stream-product/src/main/java/com/ycn/springcloud/ZipkingStreamProductApplication.java" />
+    <entry file="file://$PROJECT_DIR$/zipkin-stream-product/src/main/java/com/ycn/springcloud/web/TraceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-181">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipking-stream-consumer/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/zipkin-stream-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1525">
+          <caret line="68" column="27" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipking-stream-consumer/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/zipkin-stream-consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipking-stream-consumer/src/main/java/com/ycn/springcloud/ZipkingStreamConsumerApplication.java" />
+    <entry file="file://$PROJECT_DIR$/zipkin-stream-consumer/src/main/java/com/ycn/springcloud/web/TraceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-stream-product/src/main/java/com/ycn/springcloud/ZipkinStreamProductApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-stream-consumer/src/main/java/com/ycn/springcloud/ZipkinStreamConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding>
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-stream-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="62" column="19" lean-forward="true" selection-start-line="62" selection-start-column="19" selection-end-line="74" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-stream-product-es/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="40" column="64" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-stream-product/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="19" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-stream-product-es/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-stream-product-es/src/main/java/com/ycn/springcloud/web/TraceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-stream-consumer-es/src/main/java/com/ycn/springcloud/web/TraceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="28" column="73" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-stream-product-es/src/main/java/com/ycn/springcloud/ZipkinStreamProductEsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-stream-consumer-es/src/main/java/com/ycn/springcloud/ZipkinStreamConsumerEsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-stream-consumer-es/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-stream-consumer-es/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-stream-server-es/src/main/java/com/ycn/springcloud/ZipkinStreamServerEsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-stream-server-es/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-stream-server-es/src/main/resources/application.yml.back">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-stream-server-es/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="67" column="50" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>rabbit-stream</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

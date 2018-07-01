@@ -1,0 +1,20 @@
+server:
+  port: 0
+spring:
+  application:
+    name: rabbit-stream-product
+  cloud:
+      stream:
+        bindings:
+          output:
+            destination: greetings    #消息通道
+            content-type: application/json
+            producer:
+              partitionKeyExpression: payload    #通过该参数指定了分区键的表达式规则，我们可以根据实际的输出消息规则来配置SpEL来生成合适的分区键；
+              partitionCount: 2    #指定消息分区的数量。
+
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consul-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consul-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-consumer-hystrix-demotion" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-feign-upload-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-monitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-stream" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-stream-product" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/trace-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/trace-product" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/transaction-lcn" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/turbine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/turbine-amqp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zipkin-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zipkin-stream-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zipkin-stream-consumer-es" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zipkin-stream-product" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zipkin-stream-product-es" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zipkin-stream-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zipkin-stream-server-es" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

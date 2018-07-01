@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: rabbit-stream
+  cloud:
+    stream:
+      bindings:
+#        output:
+#          destination: greetings    #消息通道
+#          content-type: application/json
+        input:
+          destination: greetings    #
+          content-type: application/json     #接收消息字符串类型
+          group: group-a    #定义消费组
+          consumer:
+            partitioned: true       #开启消费分区
+      instance-count: 2       #指定当前消费者的总实例数量
+      instance-index: 3       #该参数设置当前实例的索引号，从0开始，最大值为spring.cloud.stream.instanceCount参数 - 1
+
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+
+server:
+  port: 0

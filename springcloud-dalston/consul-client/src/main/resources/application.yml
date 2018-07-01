@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        healthCheckPath: /health
+        healthCheckInterval: 5s
+        instance-id: consul-client
+  application:
+    name: consul-client
+server:
+  port: 2224

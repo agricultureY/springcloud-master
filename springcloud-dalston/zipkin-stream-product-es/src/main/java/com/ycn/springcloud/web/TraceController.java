@@ -19,7 +19,7 @@ public class TraceController {
     private final Logger logger = LoggerFactory.getLogger(TraceController.class);
 
     @RequestMapping("/trace-product")
-    public String trace(HttpServletRequest request){
+    public String trace(HttpServletRequest request) {
         /**  log日志值信息
          * 第一个值：标识服务名称。
          * 第二个值  traceId:它用来标识一条请求链路。一条请求链路中包含一个Trace ID，多个Span ID。
@@ -27,7 +27,7 @@ public class TraceController {
          * 第四个值：false，表示是否要将该信息输出到Zipkin等服务中来收集和展示。
          * */
         logger.info("<---------------call trace-product, traceId={}, spanId={}---------------->",
-        request.getHeader("X-B3-TraceId"),
+                request.getHeader("X-B3-TraceId"),
                 request.getHeader("X-B3-SpanId"));
         return "trace";
     }

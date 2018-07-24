@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
 public class MultipartSupportConfig {
 
     @Bean
-    public Encoder feignFromEncoder(){
+    public Encoder feignFromEncoder() {
         return new SpringFormEncoder();
     }
 }

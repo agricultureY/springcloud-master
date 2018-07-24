@@ -1,0 +1,22 @@
+server:
+  port: 9099
+spring:
+  application:
+    name: order-server
+  #Redis配置
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+    pool:
+      max-active: 1
+      max-idle: 1
+      max-wait: -1
+      min-idle: 0
+# 限流大小
+redis:
+  limit: 1
+
+
+
+

@@ -10,9 +10,10 @@ public class FileUtils {
 
     /**
      * 文件上传
-     * @param file  文件byte数组
-     * @param filePath  上传文件路径
-     * @param fileName  文件名称
+     *
+     * @param file     文件byte数组
+     * @param filePath 上传文件路径
+     * @param fileName 文件名称
      * @throws Exception
      */
     public static void uploadFile(byte[] file, String filePath, String fileName) throws Exception {

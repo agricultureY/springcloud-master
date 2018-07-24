@@ -17,7 +17,7 @@ import org.springframework.messaging.support.GenericMessage;
 public class SinkSender {
     private static Logger logger = LoggerFactory.getLogger(SinkSender.class);
 
-//    @Bean
+    //    @Bean
 //    @InboundChannelAdapter(value = Source.OUTPUT, poller = @Poller(fixedDelay = "2000"))//间隔2S发一次
     public MessageSource<String> timerMessageSource() {
         return () -> new GenericMessage<>("{\"name\":\"ycn\", \"sex\":\"男\", \"age\":24}");

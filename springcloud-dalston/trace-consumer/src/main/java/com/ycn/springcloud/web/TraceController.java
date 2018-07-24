@@ -25,12 +25,12 @@ public class TraceController {
     private RestTemplate restTemplate;
 
     @GetMapping("/trace-consumer")
-    public String trace(HttpServletRequest request){
+    public String trace(HttpServletRequest request) {
         Enumeration<String> headerNames = request.getHeaderNames();
         System.out.println(headerNames);
         while (headerNames.hasMoreElements()) {
             String name = headerNames.nextElement();
-            System.out.println(name+"-->"+request.getHeader(name));
+            System.out.println(name + "-->" + request.getHeader(name));
         }
 
         logger.info("<---------------  call trace-consumer  ---------------->");

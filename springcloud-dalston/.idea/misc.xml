@@ -31,6 +31,8 @@
         <option value="$PROJECT_DIR$/zipkin-stream-server-es/pom.xml" />
         <option value="$PROJECT_DIR$/zipkin-stream-product-es/pom.xml" />
         <option value="$PROJECT_DIR$/zipkin-stream-consumer-es/pom.xml" />
+        <option value="$PROJECT_DIR$/distributed-redis-tool/pom.xml" />
+        <option value="$PROJECT_DIR$/order-server/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

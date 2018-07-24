@@ -12,9 +12,9 @@ public class DcController {
     DiscoveryClient discoveryClient;
 
     @RequestMapping("/dc")
-    public String dc(){
+    public String dc() {
         String service = "service: " + discoveryClient.getServices();
-        System.out.println("<--------------"+service+"------------>");
+        System.out.println("<--------------" + service + "------------>");
         return service;
     }
 }

@@ -16,10 +16,11 @@ public class ConsulConsumerApplication {
 
     /**
      * 初始化restTemplate
+     *
      * @return
      */
     @Bean
-    public RestTemplate restTemplate(){
+    public RestTemplate restTemplate() {
         return new RestTemplate();
     }
 }

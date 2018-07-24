@@ -68,6 +68,12 @@
         <module>zipkin-stream-consumer-es</module>
 
 
+        <!--基于Redis的分布式工具  分布式锁、分布式限流-->
+        <module>distributed-redis-tool</module>
+        <!--分布式工具测试案例-->
+        <module>order-server</module>
+
+
     </modules>
 
 

@@ -35,7 +35,7 @@ public class EurekaFeignUploadClientApplicationTests {
         DiskFileItem fileItem = (DiskFileItem) new DiskFileItemFactory().createItem("file", MediaType.TEXT_PLAIN_VALUE, true, file.getName());
         try (InputStream input = new FileInputStream(file); OutputStream out = fileItem.getOutputStream()) {
             IOUtils.copy(input, out);
-        }catch (Exception e){
+        } catch (Exception e) {
             throw new IllegalArgumentException("Invalid file: " + e, e);
         }
         MultipartFile multipartFile = new CommonsMultipartFile(fileItem);

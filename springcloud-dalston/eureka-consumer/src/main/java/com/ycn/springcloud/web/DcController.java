@@ -18,7 +18,7 @@ public class DcController {
     RestTemplate restTemplate;
 
     @RequestMapping("/dc")
-    public String dc(){
+    public String dc() {
         /**
          * 实现原理：
          *      1、通过loadBalancerClient的choose函数来负载均衡的选出一个eureka-client的服务实例，这个服务实例的基本信息存储在ServiceInstance中

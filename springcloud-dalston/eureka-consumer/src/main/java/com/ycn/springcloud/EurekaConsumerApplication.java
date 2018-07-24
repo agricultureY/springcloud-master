@@ -16,10 +16,11 @@ public class EurekaConsumerApplication {
 
     /**
      * 初始化restTemplate用来发送rest请求
+     *
      * @return
      */
     @Bean
-    public RestTemplate restTemplate(){
+    public RestTemplate restTemplate() {
         return new RestTemplate();
     }
 }

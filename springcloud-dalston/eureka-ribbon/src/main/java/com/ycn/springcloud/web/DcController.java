@@ -13,7 +13,7 @@ public class DcController {
     RestTemplate restTemplate;
 
     @RequestMapping("/dc")
-    public String dc(){
+    public String dc() {
         return restTemplate.getForObject("http://eureka-client/dc", String.class);
     }
 }

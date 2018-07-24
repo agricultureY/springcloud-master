@@ -24,7 +24,7 @@ public class TraceController {
     private RestTemplate restTemplate;
 
     @GetMapping("/trace-consumer")
-    public String trace(HttpServletRequest request){
+    public String trace(HttpServletRequest request) {
         logger.info("<---------------  call trace-consumer  ---------------->");
         return restTemplate.getForObject("http://zipkin-stream-product/trace-product", String.class);
     }

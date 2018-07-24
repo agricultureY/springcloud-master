@@ -11,17 +11,18 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 public class EurekaRibbonApplication {
 
-	public static void main(String[] args) {
-		new SpringApplicationBuilder(EurekaRibbonApplication.class).web(true).run(args);
-	}
+    public static void main(String[] args) {
+        new SpringApplicationBuilder(EurekaRibbonApplication.class).web(true).run(args);
+    }
 
-	/**
-	 * 初始化restTemplate
-	 * @return
-	 */
-	@Bean
-	@LoadBalanced
-	public RestTemplate restTemplate(){
-		return new RestTemplate();
-	}
+    /**
+     * 初始化restTemplate
+     *
+     * @return
+     */
+    @Bean
+    @LoadBalanced
+    public RestTemplate restTemplate() {
+        return new RestTemplate();
+    }
 }

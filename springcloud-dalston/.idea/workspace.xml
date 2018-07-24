@@ -37,6 +37,8 @@
     <ignored path="$PROJECT_DIR$/zipkin-stream-product-es/target/" />
     <ignored path="$PROJECT_DIR$/zipkin-stream-consumer-es/target/" />
     <ignored path="$PROJECT_DIR$/transaction-lcn/target/" />
+    <ignored path="$PROJECT_DIR$/distributed-redis-tool/target/" />
+    <ignored path="$PROJECT_DIR$/order-server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,15 +61,22 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="spring-beans.schema" />
         <option value="FxmlFile" />
+        <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -85,6 +94,11 @@
       <find>&lt;artifactId&gt;zipkin-server&lt;/artifactId&gt;</find>
       <find>&lt;artifactId&gt;zipkin-autoconfigure-ui&lt;/artifactId&gt;</find>
       <find>&lt;artifactId&gt;spring-cloud-starter-sleuth&lt;/artifactId&gt;</find>
+      <find>RedisLock</find>
+      <find>env</find>
+      <find>contro</find>
+      <find>request has bean limited</find>
+      <find>java.lang.RuntimeException: request has bean limited</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -93,38 +107,9 @@
       <dir>F:\self\codes\springcloud-dalston</dir>
     </dirStrings>
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rabbit-stream/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/trace-consumer/src/main/java/com/ycn/springcloud/TraceConsumerApplication.java" />
-        <option value="$PROJECT_DIR$/trace-product/src/main/java/com/ycn/springcloud/web/TraceController.java" />
-        <option value="$PROJECT_DIR$/trace-consumer/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/trace-consumer/src/main/resources/logback-spring.xml" />
-        <option value="$PROJECT_DIR$/trace-product/src/main/resources/logback-spring.fxml" />
-        <option value="$PROJECT_DIR$/trace-product/src/main/resources/logback-spring.xml" />
-        <option value="$PROJECT_DIR$/trace-product/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/trace-product/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/readme.txt" />
-        <option value="$PROJECT_DIR$/zipkin-server/src/main/java/com/ycn/springcloud/ZipkinServerApplication.java" />
-        <option value="$PROJECT_DIR$/zipkin-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/zipkin-server/pom.xml" />
-        <option value="$PROJECT_DIR$/trace-consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/trace-product/pom.xml" />
-        <option value="$PROJECT_DIR$/trace-product/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/trace-consumer/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/zipking-stream-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/zipking-stream-server/src/main/java/com/ycn/springcloud/ZipkingStreamServerApplication.java" />
-        <option value="$PROJECT_DIR$/zipking-stream-server/pom.xml" />
-        <option value="$PROJECT_DIR$/zipking-stream-consumer/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/zipking-stream-product/src/main/java/com/ycn/springcloud/web/TraceController.java" />
-        <option value="$PROJECT_DIR$/zipking-stream-product/pom.xml" />
         <option value="$PROJECT_DIR$/zipking-stream-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/zipking-stream-product/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/trace-product/src/main/java/com/ycn/springcloud/TraceProductApplication.java" />
@@ -152,6 +137,30 @@
         <option value="$PROJECT_DIR$/zipkin-stream-server-es/pom.xml" />
         <option value="$PROJECT_DIR$/zipkin-stream-server-es/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/config/properties/RedisClusterConfigProperties.java" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/config/RedisClusterConfig.java" />
+        <option value="$PROJECT_DIR$/distributed-redis-tool/src/main/java/com/ycn/redistool/lock/RedisLockT.java" />
+        <option value="$PROJECT_DIR$/distributed-redis-tool/src/main/java/com/ycn/redistool/lock/RedisLock.java" />
+        <option value="$PROJECT_DIR$/distributed-redis-tool/src/main/java/com/ycn/redistool/limit/RedisLimit.java" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/aop/helper/JoinPointToStringHelper.java" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/controller/RedisLockController.java" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/aop/RateLimitAspect.java" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/annotation/LxRateLimit.java" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/controller/RateLimtController.java" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/aop/LxRateLimitAspect.java" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/config/RedisLimitConfig.java" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/OrderServerApplication.java" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/config/RedisLockConfig.java" />
+        <option value="$PROJECT_DIR$/distributed-redis-tool/src/main/java/com/ycn/redistool/intercept/CommonAspect.java" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/controller/RedisLimitController.java" />
+        <option value="$PROJECT_DIR$/distributed-redis-tool/src/main/java/com/ycn/redistool/intercept/SpringMVCIntercept.java" />
+        <option value="$PROJECT_DIR$/distributed-redis-tool/src/main/java/com/ycn/redistool/intercept/WebIntercept.java" />
+        <option value="$PROJECT_DIR$/distributed-redis-tool/pom.xml" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/aop/CommonAspect.java" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/intertcept/WebIntercept.java" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/intertcept/SpringMVCIntercept.java" />
+        <option value="$PROJECT_DIR$/order-server/pom.xml" />
+        <option value="$PROJECT_DIR$/order-server/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -176,31 +185,71 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="order-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="order-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
+    <navigator proportions="" version="1">
       <sortByType ProjectPane="false" />
-      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springcloud-dalston" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-dalston" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-dalston" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-dalston" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-dalston" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-dalston" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-dalston" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-dalston" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-dalston" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-dalston" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -212,20 +261,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="springcloud-dalston" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-dalston" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,27 +274,30 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Properties" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springcloud-transaction" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\self\codes\springcloud-dalston\zipkin-stream-server-es\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\self\codes\springcloud-dalston" />
-      <recent name="F:\self\codes\springcloud-dalston\zipkin-stream-consumer\src\main\resources" />
-      <recent name="F:\self\codes\springcloud-dalston\zipkin-stream-product\src\main\resources" />
-      <recent name="F:\self\codes\springcloud-dalston\zipkin-stream-server\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ycn.springcloud.aop" />
+      <recent name="com.ycn.redistool.limit" />
+      <recent name="com.ycn.redistool.lock" />
       <recent name="com.ycn.springcloud.web" />
       <recent name="com.ycn.springcloud.mq" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\self\demos\spring-cloud\springcloud-dalston\order-server\src\main\java\com\ycn\springcloud\intertcept" />
+      <recent name="F:\self\demos\spring-cloud\springcloud-dalston\distributed-redis-tool\src\main\java\com\ycn\redistool" />
+      <recent name="F:\self\demos\spring-cloud\springcloud-dalston\distributed-redis-tool\src\main\resources" />
+      <recent name="F:\self\codes\springcloud-dalston\zipkin-stream-server-es\src\main\resources" />
       <recent name="F:\self\codes\springcloud-dalston" />
     </key>
   </component>
@@ -275,166 +313,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ConfigClientApplication" />
-      <module name="config-client" />
-      <envs />
-    </configuration>
-    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ConfigServerApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <module name="config-server" />
-      <envs />
-    </configuration>
-    <configuration name="EurekaClientApplication1112" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.EurekaClientApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <module name="eureka-client" />
-      <envs />
-    </configuration>
-    <configuration name="EurekaClientApplication1113" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.EurekaClientApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <module name="eureka-client" />
-      <envs />
-    </configuration>
-    <configuration name="EurekaConsumerHystrixDemotionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ycn.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.EurekaConsumerHystrixDemotionApplication" />
-      <module name="eureka-consumer-hystrix-demotion" />
-      <envs />
-    </configuration>
-    <configuration name="EurekaFeignUploadClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.EurekaFeignUploadClientApplication" />
-      <module name="eureka-feign-upload-client" />
-      <envs />
-    </configuration>
-    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ycn.springcloud.web.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.EurekaServerApplication" />
-      <module name="eureka-server" />
-      <envs />
-    </configuration>
-    <configuration name="RabbitStreamApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.RabbitStreamApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <module name="rabbit-stream" />
-      <envs />
-    </configuration>
-    <configuration name="RabbitStreamAppGroupa" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.RabbitStreamApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <module name="rabbit-stream" />
-      <envs />
-    </configuration>
-    <configuration name="TraceConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ycn.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.TraceConsumerApplication" />
-      <module name="trace-consumer" />
-      <envs />
-    </configuration>
-    <configuration name="TraceProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ycn.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.TraceProductApplication" />
-      <module name="trace-product" />
-      <envs />
-    </configuration>
-    <configuration name="TurbineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.TurbineApplication" />
-      <module name="turbine" />
-      <envs />
-    </configuration>
-    <configuration name="ZipkinStreamConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ycn.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ZipkinStreamConsumerApplication" />
-      <module name="zipkin-stream-consumer" />
-      <envs />
-    </configuration>
-    <configuration name="ZipkinStreamConsumerEsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ZipkinStreamConsumerEsApplication" />
-      <module name="zipkin-stream-consumer-es" />
-      <envs />
-    </configuration>
-    <configuration name="ZipkinStreamProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ycn.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ZipkinStreamProductApplication" />
-      <module name="zipkin-stream-product" />
-      <envs />
-    </configuration>
-    <configuration name="ZipkinStreamProductEsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ZipkinStreamProductEsApplication" />
-      <module name="zipkin-stream-product-es" />
-      <envs />
-    </configuration>
-    <configuration name="ZipkinStreamServerEsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ycn.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ZipkinStreamServerEsApplication" />
-      <module name="zipkin-stream-server-es" />
-      <envs />
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.OrderServerApplication">
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -444,17 +327,194 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
+    <configuration name="rabbit-stream" type="JUnit" factoryName="JUnit">
+      <module name="rabbit-stream" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ycn.springcloud" />
+      <option name="MAIN_CLASS_NAME" value="com.ycn.springcloud.RabbitStreamApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ConfigClientApplication" />
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ConfigServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="ConsulClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consul-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ConsulClientApplication" />
+    </configuration>
+    <configuration name="ConsulConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consul-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ConsulConsumerApplication" />
+    </configuration>
+    <configuration name="EurekaClientApplication1112" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.EurekaClientApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="EurekaClientApplication1113" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.EurekaClientApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="EurekaConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.EurekaConsumerApplication" />
+    </configuration>
+    <configuration name="EurekaConsumerHystrixDemotionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-consumer-hystrix-demotion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ycn.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.EurekaConsumerHystrixDemotionApplication" />
+    </configuration>
+    <configuration name="EurekaFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-feign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.EurekaFeignApplication" />
+    </configuration>
+    <configuration name="EurekaFeignUploadClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-feign-upload-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.EurekaFeignUploadClientApplication" />
+    </configuration>
+    <configuration name="EurekaRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-ribbon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.EurekaRibbonApplication" />
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ycn.springcloud.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.EurekaServerApplication" />
+    </configuration>
+    <configuration name="EurekaZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.EurekaZuulApplication" />
+    </configuration>
+    <configuration name="HystrixMonitorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hystrix-monitor" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.HystrixMonitorApplication" />
+    </configuration>
+    <configuration name="OrderServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="order-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ycn.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.OrderServerApplication" />
+    </configuration>
+    <configuration name="RabbitStreamApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbit-stream" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.RabbitStreamApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="RabbitStreamAppGroupa" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbit-stream" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.RabbitStreamApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="RabbitStreamProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbit-stream-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.RabbitStreamProductApplication" />
+    </configuration>
+    <configuration name="TraceConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="trace-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ycn.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.TraceConsumerApplication" />
+    </configuration>
+    <configuration name="TurbineAmqpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="turbine-amqp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.TurbineAmqpApplication" />
+    </configuration>
+    <configuration name="TurbineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="turbine" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.TurbineApplication" />
+    </configuration>
+    <configuration name="ZipkinServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zipkin-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ZipkinServerApplication" />
+    </configuration>
+    <configuration name="ZipkinStreamConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="zipkin-stream-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ycn.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ZipkinStreamConsumerApplication" />
+    </configuration>
+    <configuration name="ZipkinStreamConsumerEsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zipkin-stream-consumer-es" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ZipkinStreamConsumerEsApplication" />
+    </configuration>
+    <configuration name="ZipkinStreamProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="zipkin-stream-product" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ycn.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ZipkinStreamProductApplication" />
+    </configuration>
+    <configuration name="ZipkinStreamProductEsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zipkin-stream-product-es" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ZipkinStreamProductEsApplication" />
+    </configuration>
+    <configuration name="ZipkinStreamServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zipkin-stream-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ZipkinStreamServerApplication" />
+    </configuration>
+    <configuration name="ZipkinStreamServerEsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="zipkin-stream-server-es" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ycn.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ZipkinStreamServerEsApplication" />
+    </configuration>
+    <configuration name="configserver7075" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ConfigServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -467,78 +527,56 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
     </configuration>
-    <configuration name="configserver7075" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ConfigServerApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <module name="config-server" />
-      <envs />
-    </configuration>
-    <configuration name="rabbit-stream" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="rabbit-stream" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ycn.springcloud" />
-      <option name="MAIN_CLASS_NAME" value="com.ycn.springcloud.RabbitStreamApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <list size="19">
-      <item index="0" class="java.lang.String" itemvalue="Spring Boot.EurekaClientApplication1113" />
-      <item index="1" class="java.lang.String" itemvalue="Spring Boot.ZipkinStreamProductEsApplication" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.rabbit-stream" />
-      <item index="3" class="java.lang.String" itemvalue="Spring Boot.RabbitStreamAppGroupa" />
-      <item index="4" class="java.lang.String" itemvalue="Spring Boot.configserver7075" />
-      <item index="5" class="java.lang.String" itemvalue="Spring Boot.TraceConsumerApplication" />
-      <item index="6" class="java.lang.String" itemvalue="Spring Boot.EurekaConsumerHystrixDemotionApplication" />
-      <item index="7" class="java.lang.String" itemvalue="Spring Boot.ZipkinStreamServerEsApplication" />
-      <item index="8" class="java.lang.String" itemvalue="Spring Boot.RabbitStreamApp" />
-      <item index="9" class="java.lang.String" itemvalue="Spring Boot.TraceProductApplication" />
-      <item index="10" class="java.lang.String" itemvalue="Spring Boot.TurbineApplication" />
-      <item index="11" class="java.lang.String" itemvalue="Spring Boot.ZipkinStreamConsumerEsApplication" />
-      <item index="12" class="java.lang.String" itemvalue="Spring Boot.ZipkinStreamConsumerApplication" />
-      <item index="13" class="java.lang.String" itemvalue="Spring Boot.EurekaServerApplication" />
-      <item index="14" class="java.lang.String" itemvalue="Spring Boot.EurekaFeignUploadClientApplication" />
-      <item index="15" class="java.lang.String" itemvalue="Spring Boot.ConfigClientApplication" />
-      <item index="16" class="java.lang.String" itemvalue="Spring Boot.ZipkinStreamProductApplication" />
-      <item index="17" class="java.lang.String" itemvalue="Spring Boot.ConfigServerApplication" />
-      <item index="18" class="java.lang.String" itemvalue="Spring Boot.EurekaClientApplication1112" />
+    <list>
+      <item itemvalue="JUnit.rabbit-stream" />
+      <item itemvalue="Spring Boot.RabbitStreamAppGroupa" />
+      <item itemvalue="Spring Boot.RabbitStreamApp" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.EurekaClientApplication1112" />
+      <item itemvalue="Spring Boot.EurekaClientApplication1113" />
+      <item itemvalue="Spring Boot.EurekaFeignUploadClientApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.configserver7075" />
+      <item itemvalue="Spring Boot.ConfigClientApplication" />
+      <item itemvalue="Spring Boot.TurbineApplication" />
+      <item itemvalue="Spring Boot.EurekaConsumerHystrixDemotionApplication" />
+      <item itemvalue="Spring Boot.ZipkinStreamConsumerEsApplication" />
+      <item itemvalue="Spring Boot.ZipkinStreamProductEsApplication" />
+      <item itemvalue="Spring Boot.HystrixMonitorApplication" />
+      <item itemvalue="Spring Boot.ZipkinStreamServerApplication" />
+      <item itemvalue="Spring Boot.EurekaFeignApplication" />
+      <item itemvalue="Spring Boot.ConsulConsumerApplication" />
+      <item itemvalue="Spring Boot.ConsulClientApplication" />
+      <item itemvalue="Spring Boot.EurekaRibbonApplication" />
+      <item itemvalue="Spring Boot.EurekaZuulApplication" />
+      <item itemvalue="Spring Boot.TurbineAmqpApplication" />
+      <item itemvalue="Spring Boot.ZipkinServerApplication" />
+      <item itemvalue="Spring Boot.EurekaConsumerApplication" />
+      <item itemvalue="Spring Boot.RabbitStreamProductApplication" />
+      <item itemvalue="Spring Boot.TraceConsumerApplication" />
+      <item itemvalue="Spring Boot.ZipkinStreamConsumerApplication" />
+      <item itemvalue="Spring Boot.ZipkinStreamProductApplication" />
+      <item itemvalue="Spring Boot.ZipkinStreamServerEsApplication" />
+      <item itemvalue="Spring Boot.OrderServerApplication" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.ZipkinStreamProductApplication" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.ZipkinStreamConsumerApplication" />
-        <item index="2" class="java.lang.String" itemvalue="Spring Boot.TraceProductApplication" />
-        <item index="3" class="java.lang.String" itemvalue="Spring Boot.ZipkinStreamServerEsApplication" />
-        <item index="4" class="java.lang.String" itemvalue="Spring Boot.TraceConsumerApplication" />
+      <list>
+        <item itemvalue="Spring Boot.OrderServerApplication" />
+        <item itemvalue="Spring Boot.ZipkinStreamServerEsApplication" />
+        <item itemvalue="Spring Boot.ZipkinStreamProductApplication" />
+        <item itemvalue="Spring Boot.ZipkinStreamConsumerApplication" />
+        <item itemvalue="Spring Boot.TraceConsumerApplication" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -565,7 +603,14 @@
       <workItem from="1530319455374" duration="13555000" />
       <workItem from="1530360614758" duration="7357000" />
       <workItem from="1530410501368" duration="7865000" />
-      <workItem from="1530459788180" duration="254000" />
+      <workItem from="1530492763050" duration="1294000" />
+      <workItem from="1532242031447" duration="13444000" />
+      <workItem from="1532271397394" duration="3338000" />
+      <workItem from="1532318226708" duration="4816000" />
+      <workItem from="1532393399765" duration="1270000" />
+      <workItem from="1532397763909" duration="213000" />
+      <workItem from="1532398016501" duration="16362000" />
+      <workItem from="1532419735741" duration="5172000" />
     </task>
     <servers />
   </component>
@@ -602,7 +647,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178772000" />
+    <option name="totallyTimeSpent" value="224427000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -614,35 +659,75 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32905984" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.22867803" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="1" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Structure" order="10" sideWeight="0.5365517" side_tool="true" weight="0.17225201" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3148148" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32897604" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32946146" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32135075" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32900432" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4634483" visible="true" weight="0.21375267" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="1" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32900432" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32905984" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32905984" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32946146" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.22386059" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4634483" weight="0.2185501" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Structure" order="10" sideWeight="0.5365517" side_tool="true" weight="0.17225201" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3267974" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -652,283 +737,339 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="32" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
+    <entry file="file://$PROJECT_DIR$/trace-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-798" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hystrix-monitor/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-750" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/maven/maven_repo/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/JedisCluster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/maven/maven_repo/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/BinaryJedisCluster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-redis-tool/src/test/java/com/ycn/redistool/DistributedRedisToolApplicationTests.java" />
+    <entry file="jar://D:/java/maven/maven_repo/org/springframework/data/spring-data-redis/1.8.9.RELEASE/spring-data-redis-1.8.9.RELEASE.jar!/org/springframework/data/redis/connection/jedis/JedisClusterConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="98" column="13" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/maven/maven_repo/org/springframework/data/spring-data-redis/1.8.9.RELEASE/spring-data-redis-1.8.9.RELEASE.jar!/org/springframework/data/redis/connection/jedis/JedisConnectionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/config/properties/RedisClusterConfigProperties.java" />
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/config/RedisClusterConfig.java" />
+    <entry file="jar://D:/java/maven/maven_repo/org/springframework/data/spring-data-redis/1.8.9.RELEASE/spring-data-redis-1.8.9.RELEASE.jar!/org/springframework/data/redis/connection/RedisConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/maven/maven_repo/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/JedisCommands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/JDK/jdk1.8/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="1642" column="42" selection-start-line="1642" selection-start-column="42" selection-end-line="1642" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/JDK/jdk1.8/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="53" column="12" lean-forward="true" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/aop/helper/JoinPointToStringHelper.java" />
+    <entry file="jar://D:/java/maven/maven_repo/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13.jar!/org/aspectj/lang/ProceedingJoinPoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/maven/maven_repo/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13.jar!/org/aspectj/runtime/reflect/JoinPointImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2460">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/maven/maven_repo/org/springframework/spring-aop/4.3.13.RELEASE/spring-aop-4.3.13.RELEASE.jar!/org/springframework/aop/aspectj/AbstractAspectJAdvice.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="420" selection-start-line="420" selection-end-line="420" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/maven/maven_repo/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/util/concurrent/RateLimiter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="22" column="60" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/JDK/jdk1.8/src.zip!/java/util/concurrent/TimeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1142">
+          <caret line="104" column="4" selection-start-line="104" selection-start-column="4" selection-end-line="104" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/JDK/jdk1.8/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="3454" column="57" selection-start-line="3454" selection-start-column="36" selection-end-line="3454" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/aop/RateLimitAspect.java" />
+    <entry file="jar://D:/java/JDK/jdk1.8/jre/lib/rt.jar!/java/lang/Object.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="51" column="27" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/config/RedisLimitConfig.java" />
+    <entry file="jar://D:/java/maven/maven_repo/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-redis-tool/src/main/java/com/ycn/redistool/annotation/CommonLimit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/maven/maven_repo/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE.jar!/org/springframework/context/annotation/EnableAspectJAutoProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/maven/maven_repo/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE.jar!/org/springframework/context/annotation/AspectJAutoProxyRegistrar.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-redis-tool/src/main/java/com/ycn/redistool/annotation/SpringControllerLimit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-redis-tool/src/main/java/com/ycn/redistool/annotation/ControllerLimit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-redis-tool/src/main/java/com/ycn/redistool/intercept/SpringMVCIntercept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-redis-tool/src/main/java/com/ycn/redistool/intercept/CommonAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/annotation/LxRateLimit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="36" column="1" lean-forward="true" selection-start-line="8" selection-end-line="36" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/aop/LxRateLimitAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/config/RedisToolConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/controller/RateLimtController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/controller/RedisLockController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="35" column="44" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/OrderServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-redis-tool/src/main/java/com/ycn/redistool/util/ScriptUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-redis-tool/src/main/java/com/ycn/redistool/lock/RedisLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-redis-tool/src/main/java/com/ycn/redistool/limit/RedisLimit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-redis-tool/src/main/java/com/ycn/redistool/intercept/WebIntercept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-redis-tool/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2992">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/controller/RedisLimitController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/aop/CommonAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/intertcept/SpringMVCIntercept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-redis-tool/src/main/resources/limit.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/intertcept/WebIntercept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/maven/maven_repo/org/springframework/cloud/spring-cloud-sleuth-core/1.2.0.RELEASE/spring-cloud-sleuth-core-1.2.0.RELEASE.jar!/org/springframework/cloud/sleuth/instrument/web/TraceWebAutoConfiguration.class" />
-    <entry file="file://$PROJECT_DIR$/zipkin-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace-consumer/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="203" column="0" lean-forward="false" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zipkin-server/src/main/java/com/ycn/springcloud/ZipkinServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace-product/src/main/java/com/ycn/springcloud/web/TraceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zipking-stream-product/src/main/java/com/ycn/springcloud/web/TraceController.java" />
-    <entry file="file://$PROJECT_DIR$/trace-product/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="67" column="21" lean-forward="false" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace-product/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace-product/src/main/java/com/ycn/springcloud/TraceProductApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace-consumer/src/main/java/com/ycn/springcloud/TraceConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace-consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace-consumer/src/main/java/com/ycn/springcloud/web/TraceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zipking-stream-consumer/src/main/java/com/ycn/springcloud/web/TraceController.java" />
-    <entry file="file://$PROJECT_DIR$/zipkin-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zipking-stream-server/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/zipking-stream-server/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/zipkin-stream-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zipking-stream-server/src/main/resources/zipkin.sql" />
-    <entry file="file://$PROJECT_DIR$/zipking-stream-server/src/main/java/com/ycn/springcloud/ZipkingStreamServerApplication.java" />
-    <entry file="file://$PROJECT_DIR$/zipkin-stream-server/src/main/java/com/ycn/springcloud/ZipkinStreamServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="52" lean-forward="false" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zipking-stream-product/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/zipkin-stream-product/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="67" column="27" lean-forward="false" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zipking-stream-product/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/zipking-stream-product/src/main/java/com/ycn/springcloud/ZipkingStreamProductApplication.java" />
-    <entry file="file://$PROJECT_DIR$/zipkin-stream-product/src/main/java/com/ycn/springcloud/web/TraceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-181">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zipking-stream-consumer/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/zipkin-stream-consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1525">
-          <caret line="68" column="27" lean-forward="false" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zipking-stream-consumer/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/zipkin-stream-consumer/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zipking-stream-consumer/src/main/java/com/ycn/springcloud/ZipkingStreamConsumerApplication.java" />
-    <entry file="file://$PROJECT_DIR$/zipkin-stream-consumer/src/main/java/com/ycn/springcloud/web/TraceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zipkin-stream-product/src/main/java/com/ycn/springcloud/ZipkinStreamProductApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zipkin-stream-consumer/src/main/java/com/ycn/springcloud/ZipkinStreamConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zipkin-stream-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="62" column="19" lean-forward="true" selection-start-line="62" selection-start-column="19" selection-end-line="74" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zipkin-stream-product-es/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="40" column="64" lean-forward="false" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zipkin-stream-product/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="19" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zipkin-stream-product-es/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zipkin-stream-product-es/src/main/java/com/ycn/springcloud/web/TraceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zipkin-stream-consumer-es/src/main/java/com/ycn/springcloud/web/TraceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="28" column="73" lean-forward="false" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zipkin-stream-product-es/src/main/java/com/ycn/springcloud/ZipkinStreamProductEsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zipkin-stream-consumer-es/src/main/java/com/ycn/springcloud/ZipkinStreamConsumerEsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zipkin-stream-consumer-es/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="47" lean-forward="false" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zipkin-stream-consumer-es/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="47" column="20" lean-forward="false" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zipkin-stream-server-es/src/main/java/com/ycn/springcloud/ZipkinStreamServerEsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zipkin-stream-server-es/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="66" column="21" lean-forward="false" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zipkin-stream-server-es/src/main/resources/application.yml.back" />
-    <entry file="file://$PROJECT_DIR$/zipkin-stream-server-es/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="67" column="50" lean-forward="false" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

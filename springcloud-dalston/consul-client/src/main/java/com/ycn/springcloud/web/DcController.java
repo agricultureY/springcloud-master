@@ -17,9 +17,9 @@ public class DcController {
     }
 
     @RequestMapping("/dc")
-    public String dc(){
-        String services = "services: "+discoveryClient.getServices();
-        System.out.println("<-----------"+services+"--------------->");
+    public String dc() {
+        String services = "services: " + discoveryClient.getServices();
+        System.out.println("<-----------" + services + "--------------->");
         return services;
     }
 }

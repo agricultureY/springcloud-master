@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bytetcc-consumer/bytetcc-consumer.iml" filepath="$PROJECT_DIR$/bytetcc-consumer/bytetcc-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bytetcc-provider/bytetcc-provider.iml" filepath="$PROJECT_DIR$/bytetcc-provider/bytetcc-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbc-lcn-good/jdbc-lcn-good.iml" filepath="$PROJECT_DIR$/jdbc-lcn-good/jdbc-lcn-good.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbc-lcn-integral/jdbc-lcn-integral.iml" filepath="$PROJECT_DIR$/jdbc-lcn-integral/jdbc-lcn-integral.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbc-lcn-settlement/jdbc-lcn-settlement.iml" filepath="$PROJECT_DIR$/jdbc-lcn-settlement/jdbc-lcn-settlement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbc-lcn-shopcar/jdbc-lcn-shopcar.iml" filepath="$PROJECT_DIR$/jdbc-lcn-shopcar/jdbc-lcn-shopcar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbc-lcn-user/jdbc-lcn-user.iml" filepath="$PROJECT_DIR$/jdbc-lcn-user/jdbc-lcn-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-lcn-consumer/mybatis-lcn-consumer.iml" filepath="$PROJECT_DIR$/mybatis-lcn-consumer/mybatis-lcn-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-lcn-product/mybatis-lcn-product.iml" filepath="$PROJECT_DIR$/mybatis-lcn-product/mybatis-lcn-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-transaction.iml" filepath="$PROJECT_DIR$/springcloud-transaction.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.ycn.springcloud</groupId>
+    <artifactId>springcloud-transaction</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>springcloud-transaction</name>
+    <description>springcloud-transaction  分布式事务</description>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <modules>
+        <!--服务注册中心-->
+        <module>eureka-server</module>
+
+        <!--访问链：
+                    user  ===》  good
+                    user  ===》  shopcar
+                    shopcar  ===》  integral
+                    shopcar  ===》  settlement-->
+
+        <!--jdbc访问数据库-->
+        <module>jdbc-lcn-user</module>
+        <module>jdbc-lcn-good</module>
+        <module>jdbc-lcn-shopcar</module>
+        <module>jdbc-lcn-integral</module>
+        <module>jdbc-lcn-settlement</module>
+
+        <!--mybatis访问数据库-->
+        <module>mybatis-lcn-product</module>
+        <module>mybatis-lcn-consumer</module>
+
+        <!--bytetcc事务 被调者-->
+        <module>bytetcc-provider</module>
+        <!--bytetcc事务 调用者-->
+        <module>bytetcc-consumer</module>
+
+    </modules>
+
+</project>

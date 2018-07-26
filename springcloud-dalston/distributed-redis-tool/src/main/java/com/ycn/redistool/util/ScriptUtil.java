@@ -1,5 +1,8 @@
 package com.ycn.redistool.util;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;

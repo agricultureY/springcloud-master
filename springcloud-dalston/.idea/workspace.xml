@@ -61,10 +61,70 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor" />
+    <leaf>
+      <file leaf-file-name="LxToken.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/annotation/LxToken.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LxRateLimitAspect.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/aop/LxRateLimitAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="40" column="66" lean-forward="true" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LxTokenAspect.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/aop/LxTokenAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="57" column="33" lean-forward="true" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IdempotentAPIController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/controller/IdempotentAPIController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="30" column="65" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#895#896#0" expanded="true" />
+                <element signature="e#934#935#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order-server/src/main/resources/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/util/RedisUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="151" column="32" selection-start-line="151" selection-start-column="32" selection-end-line="151" selection-end-column="32" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -75,16 +135,15 @@
         <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="FxmlFile" />
+        <option value="HTML File" />
         <option value="AnnotationType" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>va</find>
-      <find>UploadController</find>
-      <find>spring-cloud-netflix-hystrix-amqp</find>
       <find>logstash</find>
       <find>pro</find>
       <find>ontroller</find>
@@ -99,6 +158,22 @@
       <find>contro</find>
       <find>request has bean limited</find>
       <find>java.lang.RuntimeException: request has bean limited</find>
+      <find>RedisKeyCommands</find>
+      <find>RedisStringCommands</find>
+      <find>get</find>
+      <find>11022049857445171200</find>
+      <find>1022049857445171201</find>
+      <find>1022049857445171202</find>
+      <find>1022049857445171203</find>
+      <find>1022049857445171204</find>
+      <find>1022049857445171205</find>
+      <find>1022049857445171206</find>
+      <find>1022049857445171207</find>
+      <find>1022049857445171208</find>
+      <find>1022049857445171209</find>
+      <find>repeat</find>
+      <find>1022054769969205248</find>
+      <find>1022054769969205249</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -110,21 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/zipking-stream-consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/zipking-stream-product/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/trace-product/src/main/java/com/ycn/springcloud/TraceProductApplication.java" />
-        <option value="$PROJECT_DIR$/zipking-stream-consumer/src/main/java/com/ycn/springcloud/ZipkingStreamConsumerApplication.java" />
-        <option value="$PROJECT_DIR$/zipking-stream-product/src/main/java/com/ycn/springcloud/ZipkingStreamProductApplication.java" />
-        <option value="$PROJECT_DIR$/trace-consumer/src/main/java/com/ycn/springcloud/web/TraceController.java" />
-        <option value="$PROJECT_DIR$/zipking-stream-consumer/src/main/java/com/ycn/springcloud/web/TraceController.java" />
-        <option value="$PROJECT_DIR$/zipkin-stream-server/pom.xml" />
-        <option value="$PROJECT_DIR$/zipkin-stream-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/zipkin-stream-server/src/main/java/com/ycn/springcloud/ZipkinStreamServerApplication.java" />
-        <option value="$PROJECT_DIR$/zipkin-stream-product/pom.xml" />
-        <option value="$PROJECT_DIR$/zipkin-stream-product/src/main/java/com/ycn/springcloud/ZipkinStreamProductApplication.java" />
-        <option value="$PROJECT_DIR$/zipkin-stream-consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/zipkin-stream-consumer/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/zipkin-stream-consumer/src/main/java/com/ycn/springcloud/ZipkinStreamConsumerApplication.java" />
         <option value="$PROJECT_DIR$/zipkin-stream-server-es/src/main/java/com/ycn/springcloud/ZipkinStreamServerEsApplication.java" />
         <option value="$PROJECT_DIR$/zipkin-stream-product-es/pom.xml" />
         <option value="$PROJECT_DIR$/zipkin-stream-product-es/src/main/resources/application.yml" />
@@ -159,8 +219,23 @@
         <option value="$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/aop/CommonAspect.java" />
         <option value="$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/intertcept/WebIntercept.java" />
         <option value="$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/intertcept/SpringMVCIntercept.java" />
-        <option value="$PROJECT_DIR$/order-server/pom.xml" />
+        <option value="$PROJECT_DIR$/distributed-redis-tool/src/main/java/com/ycn/redistool/util/ScriptUtil.java" />
         <option value="$PROJECT_DIR$/order-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/config/RedisToolConfig.java" />
+        <option value="$PROJECT_DIR$/order-server/src/test/java/com/ycn/springcloud/OrderServerApplicationTests.java" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/util/IdWorker.java" />
+        <option value="$PROJECT_DIR$/order-server/pom.xml" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/config/WebMvcConfig.java" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/util/HttpKit.java" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/util/WafKit.java" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/util/WafRequestWrapper.java" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/util/HttpUtil.java" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/constant/TokenEnum.java" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/annotation/LxToken.java" />
+        <option value="$PROJECT_DIR$/order-server/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/util/RedisUtil.java" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/controller/IdempotentAPIController.java" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/aop/LxTokenAspect.java" />
       </list>
     </option>
   </component>
@@ -211,45 +286,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="springcloud-dalston" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-dalston" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-dalston" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-dalston" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-dalston" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-dalston" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-dalston" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-dalston" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-dalston" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-dalston" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -261,9 +297,156 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springcloud-dalston" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-dalston" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-dalston" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-dalston" type="462c0819:PsiDirectoryNode" />
+              <item name="order-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-dalston" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-dalston" type="462c0819:PsiDirectoryNode" />
+              <item name="order-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-dalston" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-dalston" type="462c0819:PsiDirectoryNode" />
+              <item name="order-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-dalston" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-dalston" type="462c0819:PsiDirectoryNode" />
+              <item name="order-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-dalston" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-dalston" type="462c0819:PsiDirectoryNode" />
+              <item name="order-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-dalston" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-dalston" type="462c0819:PsiDirectoryNode" />
+              <item name="order-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ycn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-dalston" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-dalston" type="462c0819:PsiDirectoryNode" />
+              <item name="order-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ycn" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-dalston" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-dalston" type="462c0819:PsiDirectoryNode" />
+              <item name="order-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ycn" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-dalston" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-dalston" type="462c0819:PsiDirectoryNode" />
+              <item name="order-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ycn" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-dalston" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-dalston" type="462c0819:PsiDirectoryNode" />
+              <item name="order-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ycn" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="constant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-dalston" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-dalston" type="462c0819:PsiDirectoryNode" />
+              <item name="order-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ycn" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-dalston" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-dalston" type="462c0819:PsiDirectoryNode" />
+              <item name="order-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ycn" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-dalston" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-dalston" type="462c0819:PsiDirectoryNode" />
+              <item name="order-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-dalston" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-dalston" type="462c0819:PsiDirectoryNode" />
+              <item name="order-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
@@ -274,7 +457,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Properties" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springcloud-transaction" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring-boot/websocket-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -283,8 +466,12 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\self\codes\springcloud-dalston" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\self\demos\spring-cloud\springcloud-dalston\order-server\src\main\resources\static\JS" />
+      <recent name="F:\self\demos\spring-cloud\springcloud-dalston\order-server\src\main\java\com\ycn\springcloud\intertcept" />
+      <recent name="F:\self\demos\spring-cloud\springcloud-dalston\distributed-redis-tool\src\main\java\com\ycn\redistool" />
+      <recent name="F:\self\demos\spring-cloud\springcloud-dalston\distributed-redis-tool\src\main\resources" />
+      <recent name="F:\self\codes\springcloud-dalston\zipkin-stream-server-es\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ycn.springcloud.aop" />
@@ -293,11 +480,7 @@
       <recent name="com.ycn.springcloud.web" />
       <recent name="com.ycn.springcloud.mq" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\self\demos\spring-cloud\springcloud-dalston\order-server\src\main\java\com\ycn\springcloud\intertcept" />
-      <recent name="F:\self\demos\spring-cloud\springcloud-dalston\distributed-redis-tool\src\main\java\com\ycn\redistool" />
-      <recent name="F:\self\demos\spring-cloud\springcloud-dalston\distributed-redis-tool\src\main\resources" />
-      <recent name="F:\self\codes\springcloud-dalston\zipkin-stream-server-es\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\self\codes\springcloud-dalston" />
     </key>
   </component>
@@ -327,23 +510,6 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="rabbit-stream" type="JUnit" factoryName="JUnit">
-      <module name="rabbit-stream" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ycn.springcloud" />
-      <option name="MAIN_CLASS_NAME" value="com.ycn.springcloud.RabbitStreamApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
@@ -445,16 +611,6 @@
       <module name="rabbit-stream-product" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.RabbitStreamProductApplication" />
     </configuration>
-    <configuration name="TraceConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="trace-consumer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ycn.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.TraceConsumerApplication" />
-    </configuration>
     <configuration name="TurbineAmqpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="turbine-amqp" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.TurbineAmqpApplication" />
@@ -467,29 +623,9 @@
       <module name="zipkin-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ZipkinServerApplication" />
     </configuration>
-    <configuration name="ZipkinStreamConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="zipkin-stream-consumer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ycn.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ZipkinStreamConsumerApplication" />
-    </configuration>
     <configuration name="ZipkinStreamConsumerEsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="zipkin-stream-consumer-es" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ZipkinStreamConsumerEsApplication" />
-    </configuration>
-    <configuration name="ZipkinStreamProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="zipkin-stream-product" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ycn.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.ZipkinStreamProductApplication" />
     </configuration>
     <configuration name="ZipkinStreamProductEsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="zipkin-stream-product-es" />
@@ -537,7 +673,6 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.rabbit-stream" />
       <item itemvalue="Spring Boot.RabbitStreamAppGroupa" />
       <item itemvalue="Spring Boot.RabbitStreamApp" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
@@ -562,9 +697,6 @@
       <item itemvalue="Spring Boot.ZipkinServerApplication" />
       <item itemvalue="Spring Boot.EurekaConsumerApplication" />
       <item itemvalue="Spring Boot.RabbitStreamProductApplication" />
-      <item itemvalue="Spring Boot.TraceConsumerApplication" />
-      <item itemvalue="Spring Boot.ZipkinStreamConsumerApplication" />
-      <item itemvalue="Spring Boot.ZipkinStreamProductApplication" />
       <item itemvalue="Spring Boot.ZipkinStreamServerEsApplication" />
       <item itemvalue="Spring Boot.OrderServerApplication" />
     </list>
@@ -572,9 +704,6 @@
       <list>
         <item itemvalue="Spring Boot.OrderServerApplication" />
         <item itemvalue="Spring Boot.ZipkinStreamServerEsApplication" />
-        <item itemvalue="Spring Boot.ZipkinStreamProductApplication" />
-        <item itemvalue="Spring Boot.ZipkinStreamConsumerApplication" />
-        <item itemvalue="Spring Boot.TraceConsumerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -611,43 +740,45 @@
       <workItem from="1532397763909" duration="213000" />
       <workItem from="1532398016501" duration="16362000" />
       <workItem from="1532419735741" duration="5172000" />
+      <workItem from="1532499610638" duration="12495000" />
+      <workItem from="1532565952423" duration="11887000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FeignUpload - 2018.06.15 at 10h 50m 48s.xml">
-      <configuration name="FeignUpload" configurationId="JUnit" />
+    <history-entry file="OrderServerApplicationTests_contextLoads - 2018.07.25 at 15h 34m 03s.xml">
+      <configuration name="OrderServerApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="rabbit-stream - 2018.06.22 at 18h 54m 29s.xml">
-      <configuration name="rabbit-stream" configurationId="JUnit" />
+    <history-entry file="OrderServerApplicationTests_contextLoads - 2018.07.25 at 15h 34m 41s.xml">
+      <configuration name="OrderServerApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="rabbit-stream - 2018.06.22 at 18h 55m 20s.xml">
-      <configuration name="rabbit-stream" configurationId="JUnit" />
+    <history-entry file="OrderServerApplicationTests_contextLoads - 2018.07.25 at 15h 35m 47s.xml">
+      <configuration name="OrderServerApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="rabbit-stream - 2018.06.23 at 10h 44m 46s.xml">
-      <configuration name="rabbit-stream" configurationId="JUnit" />
+    <history-entry file="OrderServerApplicationTests_contextLoads - 2018.07.25 at 15h 36m 34s.xml">
+      <configuration name="OrderServerApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="rabbit-stream - 2018.06.27 at 18h 56m 52s.xml">
-      <configuration name="rabbit-stream" configurationId="JUnit" />
+    <history-entry file="OrderServerApplicationTests_contextLoads - 2018.07.25 at 15h 37m 00s.xml">
+      <configuration name="OrderServerApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="rabbit-stream - 2018.06.27 at 19h 01m 18s.xml">
-      <configuration name="rabbit-stream" configurationId="JUnit" />
+    <history-entry file="OrderServerApplicationTests_contextLoads - 2018.07.25 at 15h 37m 53s.xml">
+      <configuration name="OrderServerApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="rabbit-stream - 2018.06.27 at 19h 08m 24s.xml">
-      <configuration name="rabbit-stream" configurationId="JUnit" />
+    <history-entry file="OrderServerApplicationTests_contextLoads - 2018.07.25 at 15h 39m 18s.xml">
+      <configuration name="OrderServerApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="rabbit-stream - 2018.06.27 at 19h 50m 32s.xml">
-      <configuration name="rabbit-stream" configurationId="JUnit" />
+    <history-entry file="OrderServerApplicationTests_contextLoads - 2018.07.25 at 15h 44m 21s.xml">
+      <configuration name="OrderServerApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="rabbit-stream - 2018.06.27 at 19h 52m 03s.xml">
-      <configuration name="rabbit-stream" configurationId="JUnit" />
+    <history-entry file="OrderServerApplicationTests_testDel - 2018.07.25 at 15h 44m 54s.xml">
+      <configuration name="OrderServerApplicationTests.testDel" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="rabbit-stream - 2018.06.27 at 19h 54m 39s.xml">
-      <configuration name="rabbit-stream" configurationId="JUnit" />
+    <history-entry file="OrderServerApplicationTests_contextLoads - 2018.07.25 at 15h 59m 05s.xml">
+      <configuration name="OrderServerApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224427000" />
+    <option name="totallyTimeSpent" value="248809000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -660,6 +791,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32905984" />
@@ -668,10 +800,10 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="1" />
       <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
-      <window_info anchor="right" id="Structure" order="10" sideWeight="0.5365517" side_tool="true" weight="0.17225201" />
+      <window_info anchor="right" id="Structure" order="10" sideWeight="0.5365517" side_tool="true" weight="0.3880597" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3148148" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39324617" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32897604" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
@@ -682,7 +814,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32135075" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32900432" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4634483" visible="true" weight="0.21375267" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4634483" visible="true" weight="0.21801706" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -737,166 +869,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="32" />
+      <option name="time" value="42" />
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/trace-consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-798" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hystrix-monitor/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-750" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-zuul/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/maven/maven_repo/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/JedisCluster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/maven/maven_repo/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/BinaryJedisCluster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-redis-tool/src/test/java/com/ycn/redistool/DistributedRedisToolApplicationTests.java" />
-    <entry file="jar://D:/java/maven/maven_repo/org/springframework/data/spring-data-redis/1.8.9.RELEASE/spring-data-redis-1.8.9.RELEASE.jar!/org/springframework/data/redis/connection/jedis/JedisClusterConnection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="98" column="13" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/maven/maven_repo/org/springframework/data/spring-data-redis/1.8.9.RELEASE/spring-data-redis-1.8.9.RELEASE.jar!/org/springframework/data/redis/connection/jedis/JedisConnectionFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/config/properties/RedisClusterConfigProperties.java" />
-    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/config/RedisClusterConfig.java" />
-    <entry file="jar://D:/java/maven/maven_repo/org/springframework/data/spring-data-redis/1.8.9.RELEASE/spring-data-redis-1.8.9.RELEASE.jar!/org/springframework/data/redis/connection/RedisConnection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/maven/maven_repo/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/JedisCommands.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/JDK/jdk1.8/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="1642" column="42" selection-start-line="1642" selection-start-column="42" selection-end-line="1642" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/JDK/jdk1.8/src.zip!/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/aop/helper/JoinPointToStringHelper.java" />
-    <entry file="jar://D:/java/maven/maven_repo/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13.jar!/org/aspectj/lang/ProceedingJoinPoint.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/maven/maven_repo/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13.jar!/org/aspectj/runtime/reflect/JoinPointImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2460">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/maven/maven_repo/org/springframework/spring-aop/4.3.13.RELEASE/spring-aop-4.3.13.RELEASE.jar!/org/springframework/aop/aspectj/AbstractAspectJAdvice.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="420" selection-start-line="420" selection-end-line="420" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/maven/maven_repo/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/util/concurrent/RateLimiter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="22" column="60" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/JDK/jdk1.8/src.zip!/java/util/concurrent/TimeUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1142">
-          <caret line="104" column="4" selection-start-line="104" selection-start-column="4" selection-end-line="104" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/JDK/jdk1.8/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="3454" column="57" selection-start-line="3454" selection-start-column="36" selection-end-line="3454" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/aop/RateLimitAspect.java" />
-    <entry file="jar://D:/java/JDK/jdk1.8/jre/lib/rt.jar!/java/lang/Object.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="51" column="27" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/config/RedisLimitConfig.java" />
-    <entry file="jar://D:/java/maven/maven_repo/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="204" selection-start-line="204" selection-end-line="204" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-redis-tool/src/main/java/com/ycn/redistool/annotation/CommonLimit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/maven/maven_repo/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE.jar!/org/springframework/context/annotation/EnableAspectJAutoProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/maven/maven_repo/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE.jar!/org/springframework/context/annotation/AspectJAutoProxyRegistrar.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/distributed-redis-tool/src/main/java/com/ycn/redistool/annotation/SpringControllerLimit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -929,43 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="36" column="1" lean-forward="true" selection-start-line="8" selection-end-line="36" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/aop/LxRateLimitAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/config/RedisToolConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/controller/RateLimtController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/controller/RedisLockController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="35" column="44" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -973,20 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-redis-tool/src/main/java/com/ycn/redistool/util/ScriptUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-redis-tool/src/main/java/com/ycn/redistool/lock/RedisLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1015,11 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="412">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#993#994#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1044,32 +968,316 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/intertcept/WebIntercept.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-redis-tool/src/main/java/com/ycn/redistool/util/ScriptUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/maven/maven_repo/org/springframework/data/spring-data-redis/1.8.9.RELEASE/spring-data-redis-1.8.9.RELEASE.jar!/org/springframework/data/redis/connection/RedisConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/maven/maven_repo/org/springframework/data/spring-data-redis/1.8.9.RELEASE/spring-data-redis-1.8.9.RELEASE.jar!/org/springframework/data/redis/connection/RedisKeyCommands.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/maven/maven_repo/org/springframework/data/spring-data-redis/1.8.9.RELEASE/spring-data-redis-1.8.9.RELEASE.jar!/org/springframework/data/redis/connection/RedisStringCommands.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-920">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/maven/maven_repo/org/springframework/data/spring-data-redis/1.8.9.RELEASE/spring-data-redis-1.8.9.RELEASE.jar!/org/springframework/data/redis/connection/RedisCommands.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="85" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/maven/maven_repo/org/springframework/data/spring-data-redis/1.8.9.RELEASE/spring-data-redis-1.8.9.RELEASE.jar!/org/springframework/data/redis/connection/RedisListCommands.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/maven/maven_repo/org/springframework/data/spring-data-redis/1.8.6.RELEASE/spring-data-redis-1.8.6.RELEASE.jar!/org/springframework/data/redis/connection/RedisServerCommands.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-766">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/maven/maven_repo/org/springframework/data/spring-data-redis/1.8.6.RELEASE/spring-data-redis-1.8.6.RELEASE.jar!/org/springframework/data/redis/connection/RedisCommands.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="76" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/maven/maven_repo/org/springframework/data/spring-data-redis/1.8.6.RELEASE/spring-data-redis-1.8.6.RELEASE.jar!/org/springframework/data/redis/connection/RedisConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/maven/maven_repo/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/JedisCluster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="1200" column="14" selection-start-line="1200" selection-start-column="14" selection-end-line="1200" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/test/java/com/ycn/springcloud/OrderServerApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <folding>
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/maven/maven_repo/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7905">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/maven/maven_repo/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE-sources.jar!/org/springframework/util/ObjectUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="68" column="51" selection-start-line="68" selection-start-column="51" selection-end-line="68" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/JDK/jdk1.8/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="914" column="18" selection-start-line="914" selection-start-column="18" selection-end-line="914" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/maven/maven_repo/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/BinaryJedis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="240" column="16" selection-start-line="240" selection-start-column="16" selection-end-line="240" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/maven/maven_repo/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/Jedis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12914">
+          <caret line="149" column="19" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/maven/maven_repo/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar!/org/apache/commons/collections4/CollectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/util/IdWorker.java" />
+    <entry file="file://$PROJECT_DIR$/distributed-redis-tool/src/main/java/com/ycn/redistool/lock/RedisLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="108" column="5" lean-forward="true" selection-start-line="94" selection-start-column="4" selection-end-line="108" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/controller/RateLimtController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/resources/static/JS/jquery-3.1.1.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/order-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        <state relative-caret-position="88">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/order-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/controller/RedisLockController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/config/WebMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/config/RedisToolConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/util/WafKit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="38" column="48" lean-forward="true" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+          <folding>
+            <element signature="e#3468#3469#0" expanded="true" />
+            <element signature="e#3525#3526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/util/WafRequestWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#1129#1175#0" expanded="true" />
+            <element signature="e#1326#1344#0" expanded="true" />
+            <element signature="e#1930#1931#0" expanded="true" />
+            <element signature="e#2001#2002#0" expanded="true" />
+            <element signature="e#2152#2153#0" expanded="true" />
+            <element signature="e#2215#2216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/util/HttpKit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1232">
+          <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/constant/TokenEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/aop/LxRateLimitAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="40" column="66" lean-forward="true" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/util/HttpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="23" column="105" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/annotation/LxToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/util/RedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="151" column="32" selection-start-line="151" selection-start-column="32" selection-end-line="151" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/controller/IdempotentAPIController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="30" column="65" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ycn/springcloud/aop/LxTokenAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="57" column="33" lean-forward="true" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

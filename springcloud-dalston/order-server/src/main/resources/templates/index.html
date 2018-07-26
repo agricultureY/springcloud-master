@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>index</title>
+    <script th:src="@{JS/jquery-3.1.1.js}"></script>
+</head>
+<body>
+<button type="button" id="add_btn">添加</button>
+
+<div id="form_div" hidden="hidden">
+    <form action="/api/testLxToken">
+        <input type="hidden" name="token"/><br/>
+        <input type="text" name="name"/><br/>
+        <input type="number" name="age"/><br/>
+        <button type="submit" id="save_btn">保存</button>
+    </form>
+</div>
+
+<script>
+    $("#add_btn").click(function () {
+        $.ajax({
+            url:"/api/getToken",
+            async:false,
+            success:function (e, t) {
+                $("#form_div").show();
+                $("[type = 'hidden'],[name = 'token']").val(e);
+            },
+            error:function (e, t) {
+                alert(e);
+            }
+        });
+    });
+    
+</script>
+</body>
+</html>

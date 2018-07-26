@@ -9,10 +9,10 @@ spring:
     port: 6379
     password:
     pool:
-      max-active: 1
-      max-idle: 1
-      max-wait: -1
-      min-idle: 0
+      max-active: 1024
+      max-idle: 50
+      max-wait: 10000
+      min-idle: 10000
 # 限流大小
 redis:
   limit: 1

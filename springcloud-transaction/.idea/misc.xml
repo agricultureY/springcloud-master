@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/jdbc-lcn-user/pom.xml" />
+        <option value="$PROJECT_DIR$/jdbc-lcn-good/pom.xml" />
+        <option value="$PROJECT_DIR$/jdbc-lcn-integral/pom.xml" />
+        <option value="$PROJECT_DIR$/jdbc-lcn-shopcar/pom.xml" />
+        <option value="$PROJECT_DIR$/jdbc-lcn-settlement/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-lcn-product/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-lcn-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/bytetcc-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/bytetcc-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/message-server/pom.xml" />
+        <option value="$PROJECT_DIR$/message-checker/pom.xml" />
+        <option value="$PROJECT_DIR$/message-common/pom.xml" />
+        <option value="$PROJECT_DIR$/message-order/pom.xml" />
+        <option value="$PROJECT_DIR$/message-account/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

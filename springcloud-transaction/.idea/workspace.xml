@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="springcloud-transaction" />
+      <module name="eureka-server" />
+      <module name="jdbc-lcn-user" />
+      <module name="jdbc-lcn-good" />
+      <module name="jdbc-lcn-integral" />
+      <module name="jdbc-lcn-shopcar" />
+    </loaded-modules>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7518367a-408d-47b7-8ce7-b6e42e700de5" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/jdbc-lcn-user/target/" />
+    <ignored path="$PROJECT_DIR$/jdbc-lcn-good/target/" />
+    <ignored path="$PROJECT_DIR$/jdbc-lcn-shopcar/target/" />
+    <ignored path="$PROJECT_DIR$/jdbc-lcn-integral/target/" />
+    <ignored path="$PROJECT_DIR$/jdbc-lcn-settlement/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis-lcn-product/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis-lcn-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/coolmq/target/" />
+    <ignored path="$PROJECT_DIR$/config-center/target/" />
+    <ignored path="$PROJECT_DIR$/bytetcc-provider/target/" />
+    <ignored path="$PROJECT_DIR$/bytetcc-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/message-server/target/" />
+    <ignored path="$PROJECT_DIR$/message-checker/target/" />
+    <ignored path="$PROJECT_DIR$/message-common/target/" />
+    <ignored path="$PROJECT_DIR$/message-order/target/" />
+    <ignored path="$PROJECT_DIR$/message-account/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/springcloud_transaction$JdbcLcnUserApplication.ic" NAME="JdbcLcnUserApplication Coverage Results" MODIFIED="1530666853547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.ycn.springcloud.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="264">
+                <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>eureka-server</find>
+      <find>integral</find>
+      <find>hea</find>
+      <find>lease</find>
+      <find>renewalPercentThreshold</find>
+      <find>Threshold</find>
+      <find>codingapi</find>
+      <find>bytesoft</find>
+      <find>hystrix</find>
+      <find>NFLoadBalancerRuleClassName</find>
+      <find>config</find>
+      <find>starter-web</find>
+      <find>XAResourceDeserializerImpl</find>
+      <find>level</find>
+      <find>log.dir</find>
+      <find>APP_Name</find>
+      <find>8761</find>
+      <find>actuator</find>
+      <find>Replica node URL</find>
+      <find>Adding new peer nodes</find>
+      <find>checker消息检查</find>
+      <find>MAKE_ORDER</find>
+      <find>messageserverapi</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>F:\self\demos\spring-cloud\springcloud-transaction</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/bytetcc-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/bytetcc-consumer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/bytetcc-provider/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/jdbc-lcn-good/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/jdbc-lcn-integral/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/jdbc-lcn-settlement/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/jdbc-lcn-shopcar/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/jdbc-lcn-user/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/message-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/mybatis-lcn-consumer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/mybatis-lcn-product/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/message-order/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/message-checker/pom.xml" />
+        <option value="$PROJECT_DIR$/message-order/pom.xml" />
+        <option value="$PROJECT_DIR$/message-order/src/main/java/com/ycn/springcloud/MessageOrderApplication.java" />
+        <option value="$PROJECT_DIR$/message-common/src/main/java/com/ycn/springcloud/entity/GoodsOrder.java" />
+        <option value="$PROJECT_DIR$/message-common/src/main/java/com/ycn/springcloud/entity/FlowRecord.java" />
+        <option value="$PROJECT_DIR$/message-common/src/main/java/com/ycn/springcloud/api/GoodsOrderApi.java" />
+        <option value="$PROJECT_DIR$/message-common/src/main/java/com/ycn/springcloud/api/FlowRecordApi.java" />
+        <option value="$PROJECT_DIR$/message-order/src/main/java/com/ycn/springcloud/mapper/GoodsOrderMapper.java" />
+        <option value="$PROJECT_DIR$/message-order/src/main/java/com/ycn/springcloud/mapper/OrderMapper.java" />
+        <option value="$PROJECT_DIR$/message-common/src/main/java/com/ycn/springcloud/config/properties/DruidProperties.java" />
+        <option value="$PROJECT_DIR$/message-common/src/main/java/com/ycn/springcloud/config/MybatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/message-common/src/main/java/com/ycn/springcloud/entity/ReliableMessage.java" />
+        <option value="$PROJECT_DIR$/message-server/src/test/java/com/ycn/springcloud/MessageServerApplicationTests.java" />
+        <option value="$PROJECT_DIR$/message-common/src/main/java/com/ycn/springcloud/enums/OrderStatusEnum.java" />
+        <option value="$PROJECT_DIR$/message-order/src/main/java/com/ycn/springcloud/service/IOrderService.java" />
+        <option value="$PROJECT_DIR$/message-order/src/main/java/com/ycn/springcloud/provider/GoodsOrderProvider.java" />
+        <option value="$PROJECT_DIR$/message-order/src/main/java/com/ycn/springcloud/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/message-account/src/main/java/com/ycn/springcloud/MessageAccountApplication.java" />
+        <option value="$PROJECT_DIR$/message-account/src/main/java/com/ycn/springcloud/mapper/FlowRecordMapper.java" />
+        <option value="$PROJECT_DIR$/message-common/src/main/java/com/ycn/springcloud/dto/GoodsFlowParam.java" />
+        <option value="$PROJECT_DIR$/message-account/src/main/java/com/ycn/springcloud/service/IFlowRecordService.java" />
+        <option value="$PROJECT_DIR$/message-account/src/main/java/com/ycn/springcloud/service/impl/FlowRecordServiceImpl.java" />
+        <option value="$PROJECT_DIR$/message-account/src/main/java/com/ycn/springcloud/listener/AccontListener.java" />
+        <option value="$PROJECT_DIR$/message-common/src/main/java/com/ycn/springcloud/enums/MessageEnum.java" />
+        <option value="$PROJECT_DIR$/message-order/src/main/java/com/ycn/springcloud/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/message-account/src/main/java/com/ycn/springcloud/config/QueueListenerConfig.java" />
+        <option value="$PROJECT_DIR$/message-checker/src/main/java/com/ycn/springcloud/consumer/MessageServerConsumer.java" />
+        <option value="$PROJECT_DIR$/message-checker/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/message-account/src/main/java/com/ycn/springcloud/provider/FlowRecordProvider.java" />
+        <option value="$PROJECT_DIR$/message-checker/src/main/java/com/ycn/springcloud/consumer/GoodsOrderConsumer.java" />
+        <option value="$PROJECT_DIR$/message-checker/src/main/java/com/ycn/springcloud/service/impl/WaitingConfirmMessageChecker.java" />
+        <option value="$PROJECT_DIR$/message-account/src/main/java/com/ycn/springcloud/consumer/MessageServerConsumer.java" />
+        <option value="$PROJECT_DIR$/message-order/src/main/java/com/ycn/springcloud/consumer/MessageServerConsumer.java" />
+        <option value="$PROJECT_DIR$/message-account/src/test/java/com/ycn/springcloud/MessageAccountApplicationTests.java" />
+        <option value="$PROJECT_DIR$/message-account/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/java/maven/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="D:\java\maven\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springcloud-transaction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-transaction" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="DBConfig&#9;PSI&#9;JAVA://com.ycn.springcloud.config.DBConfig&#10;enable-self-preservation&#9;null&#9;null&#10;datas&#9;PSI&#9;JAVA://com.ycn.springcloud.config.DBConfig#dataSource&#10;datasource&#9;PSI&#9;JAVA://com.ycn.springcloud.config.DBConfig#dataSource&#10;pom&#9;FILE&#9;file://F:/self/demos/spring-cloud/springcloud-transaction/jdbc-lcn-settlement/pom.xml" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../source/project/roses" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ycn.springcloud" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ycn.springcloud.config" />
+      <recent name="com.ycn.springcloud.service.impl" />
+      <recent name="com.ycn.springcloud.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\self\demos\spring-cloud\springcloud-transaction\message-account\src\main\java\com\ycn\springcloud" />
+      <recent name="F:\self\demos\spring-cloud\springcloud-transaction\message-order\src\main\java\com\ycn\springcloud" />
+      <recent name="F:\self\demos\spring-cloud\springcloud-transaction\eureka-server\src\main\resources" />
+      <recent name="F:\self\demos\spring-cloud\springcloud-transaction\message-common\src\main\java\com\ycn\springcloud" />
+      <recent name="F:\self\demos\spring-cloud\springcloud-transaction\message-checker\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MessageAccountApplication">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="MessageServerApplicationTests.mapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="message-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ycn.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ycn.springcloud" />
+      <option name="MAIN_CLASS_NAME" value="com.ycn.springcloud.MessageServerApplicationTests" />
+      <option name="METHOD_NAME" value="mapperTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MessageServerApplicationTests.messageSenderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="message-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ycn.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ycn.springcloud" />
+      <option name="MAIN_CLASS_NAME" value="com.ycn.springcloud.MessageServerApplicationTests" />
+      <option name="METHOD_NAME" value="messageSenderTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="BytetccConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="bytetcc-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ycn.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.BytetccConsumerApplication" />
+    </configuration>
+    <configuration name="BytetccProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="bytetcc-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ycn.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.BytetccProviderApplication" />
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ycn.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.EurekaServerApplication" />
+    </configuration>
+    <configuration name="MessageAccountApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="message-account" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.MessageAccountApplication" />
+    </configuration>
+    <configuration name="MessageCheckerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="message-checker" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.MessageCheckerApplication" />
+    </configuration>
+    <configuration name="MessageOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="message-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.MessageOrderApplication" />
+    </configuration>
+    <configuration name="MessageServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="message-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycn.springcloud.MessageServerApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.MessageServerApplication" />
+      <item itemvalue="Spring Boot.MessageCheckerApplication" />
+      <item itemvalue="Spring Boot.MessageOrderApplication" />
+      <item itemvalue="Spring Boot.MessageAccountApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.BytetccProviderApplication" />
+      <item itemvalue="Spring Boot.BytetccConsumerApplication" />
+      <item itemvalue="JUnit.MessageServerApplicationTests.messageSenderTest" />
+      <item itemvalue="JUnit.MessageServerApplicationTests.mapperTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
+        <item itemvalue="JUnit.MessageServerApplicationTests.messageSenderTest" />
+        <item itemvalue="JUnit.MessageServerApplicationTests.mapperTest" />
+        <item itemvalue="Spring Boot.BytetccConsumerApplication" />
+        <item itemvalue="Spring Boot.BytetccProviderApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7518367a-408d-47b7-8ce7-b6e42e700de5" name="Default" comment="" />
+      <created>1530499208648</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530499208648</updated>
+      <workItem from="1530499213567" duration="20647000" />
+      <workItem from="1530578878699" duration="18934000" />
+      <workItem from="1530622697849" duration="2055000" />
+      <workItem from="1530665380384" duration="24388000" />
+      <workItem from="1530751828372" duration="7508000" />
+      <workItem from="1530771031690" duration="2057000" />
+      <workItem from="1531271007233" duration="21909000" />
+      <workItem from="1531356783556" duration="9566000" />
+      <workItem from="1531464238928" duration="7678000" />
+      <workItem from="1531480638292" duration="13106000" />
+      <workItem from="1531703485330" duration="712000" />
+      <workItem from="1531722807678" duration="3239000" />
+      <workItem from="1531898018970" duration="779000" />
+      <workItem from="1531904246759" duration="1646000" />
+      <workItem from="1531986392862" duration="53000" />
+      <workItem from="1532047835079" duration="1706000" />
+      <workItem from="1532085807171" duration="1289000" />
+      <workItem from="1532425560920" duration="55000" />
+      <workItem from="1532431466274" duration="3739000" />
+      <workItem from="1532479579961" duration="15326000" />
+      <workItem from="1532697609695" duration="2071000" />
+      <workItem from="1532741560994" duration="1022000" />
+      <workItem from="1532839472208" duration="4632000" />
+      <workItem from="1532911673714" duration="21947000" />
+      <workItem from="1532999576275" duration="18036000" />
+      <workItem from="1533041838538" duration="9593000" />
+      <workItem from="1533084486311" duration="2647000" />
+      <workItem from="1533128211112" duration="6122000" />
+      <workItem from="1533179860128" duration="7589000" />
+      <workItem from="1533209594164" duration="3294000" />
+      <workItem from="1533278631704" duration="7698000" />
+      <workItem from="1533304314402" duration="2245000" />
+      <workItem from="1533357759118" duration="3555000" />
+      <workItem from="1533439268635" duration="1998000" />
+      <workItem from="1533441555458" duration="284000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MessageServerApplicationTests_contextLoads - 2018.07.31 at 09h 45m 21s.xml">
+      <configuration name="MessageServerApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MessageServerApplicationTests_contextLoads - 2018.07.31 at 09h 47m 32s.xml">
+      <configuration name="MessageServerApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MessageServerApplicationTests_contextLoads - 2018.07.31 at 09h 49m 51s.xml">
+      <configuration name="MessageServerApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MessageServerApplicationTests_messageSenderTest - 2018.07.31 at 09h 55m 51s.xml">
+      <configuration name="MessageServerApplicationTests.messageSenderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MessageServerApplicationTests_jmsTemplateTest - 2018.07.31 at 12h 37m 18s.xml">
+      <configuration name="MessageServerApplicationTests.jmsTemplateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MessageServerApplicationTests_jmsTemplateTest - 2018.07.31 at 12h 42m 15s.xml">
+      <configuration name="MessageServerApplicationTests.jmsTemplateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MessageServerApplicationTests_jmsTemplateTest - 2018.07.31 at 12h 45m 34s.xml">
+      <configuration name="MessageServerApplicationTests.jmsTemplateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MessageServerApplicationTests_messageSenderTest - 2018.08.01 at 22h 20m 43s.xml">
+      <configuration name="MessageServerApplicationTests.messageSenderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MessageServerApplicationTests_mapperTest - 2018.08.01 at 22h 23m 39s.xml">
+      <configuration name="MessageServerApplicationTests.mapperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MessageServerApplicationTests_messageSenderTest - 2018.08.01 at 22h 24m 39s.xml">
+      <configuration name="MessageServerApplicationTests.messageSenderTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="249125000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067025" side_tool="true" weight="0.3974359" />
+      <window_info anchor="right" id="Maven Projects" order="1" weight="0.27211797" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Structure" order="10" sideWeight="0.50108933" side_tool="true" weight="0.20735608" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.1923077" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32763532" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39651415" />
+      <window_info anchor="bottom" id="Spring" order="11" weight="0.32897604" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49891067" weight="0.2419571" />
+      <window_info anchor="right" id="Bean Validation" order="5" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32763532" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32995737" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/message-account/src/main/java/com/ycn/springcloud/config/QueueListenerConfig.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="49" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/message-common/src/main/java/com/ycn/springcloud/api/FlowRecordApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-server/src/main/java/com/ycn/springcloud/config/MybatisPlusConfig.java" />
+    <entry file="file://$PROJECT_DIR$/message-order/src/main/java/com/ycn/springcloud/mapper/OrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-common/src/main/java/com/ycn/springcloud/entity/ReliableMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="119" column="5" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-server/src/test/java/com/ycn/springcloud/MessageServerApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="51" column="9" lean-forward="true" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="41" column="45" lean-forward="true" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-common/src/main/java/com/ycn/springcloud/config/properties/DruidProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="217" column="5" selection-start-line="217" selection-start-column="5" selection-end-line="217" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-common/src/main/java/com/ycn/springcloud/config/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="23" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="e#1130#1131#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/maven/maven_repo/cn/hutool/hutool-core/4.1.1/hutool-core-4.1.1.jar!/cn/hutool/core/util/RandomUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2486">
+          <caret line="161" column="25" selection-start-line="161" selection-start-column="25" selection-end-line="161" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-common/src/main/java/com/ycn/springcloud/enums/OrderStatusEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-common/src/main/java/com/ycn/springcloud/api/GoodsOrderApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="23" column="66" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-account/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-660" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-account/src/main/java/com/ycn/springcloud/mapper/FlowRecordMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="63" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-account/src/main/java/com/ycn/springcloud/consumer/fallback/MessageServerFallback.java" />
+    <entry file="file://$PROJECT_DIR$/message-common/src/main/java/com/ycn/springcloud/dto/GoodsFlowParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-common/src/main/java/com/ycn/springcloud/entity/FlowRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/maven/maven_repo/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.jar!/javax/jms/MessageConsumer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-common/src/main/java/com/ycn/springcloud/enums/MessageEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-order/src/main/java/com/ycn/springcloud/service/IOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-account/src/main/java/com/ycn/springcloud/service/IFlowRecordService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-order/src/main/java/com/ycn/springcloud/consumer/fallback/MessageServerFallback.java" />
+    <entry file="file://$PROJECT_DIR$/message-server/src/main/java/com/ycn/springcloud/MessageServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-checker/src/main/java/com/ycn/springcloud/MessageCheckerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-checker/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-487">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-account/src/main/java/com/ycn/springcloud/MessageAccountApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-account/src/main/java/com/ycn/springcloud/provider/FlowRecordProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-order/src/main/java/com/ycn/springcloud/provider/GoodsOrderProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-checker/src/main/java/com/ycn/springcloud/timer/MessageDisposeTimerTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-checker/src/main/java/com/ycn/springcloud/service/impl/SendingMessageChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-checker/src/main/java/com/ycn/springcloud/consumer/MessageServerConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-checker/src/main/java/com/ycn/springcloud/consumer/GoodsOrderConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-checker/src/main/java/com/ycn/springcloud/service/impl/WaitingConfirmMessageChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="45" column="57" selection-start-line="45" selection-start-column="57" selection-end-line="45" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-account/src/main/java/com/ycn/springcloud/consumer/MessageServerConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-order/src/main/java/com/ycn/springcloud/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="37" column="28" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-order/src/main/java/com/ycn/springcloud/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-order/src/main/java/com/ycn/springcloud/consumer/MessageServerConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/maven/maven_repo/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE.jar!/org/springframework/boot/autoconfigure/jms/activemq/ActiveMQConnectionFactoryConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-account/src/test/java/com/ycn/springcloud/MessageAccountApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-account/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-checker/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-order/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-checker/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-account/src/main/java/com/ycn/springcloud/config/QueueListenerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-account/src/main/java/com/ycn/springcloud/listener/AccontListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-account/src/main/java/com/ycn/springcloud/service/impl/FlowRecordServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-common/src/main/java/com/ycn/springcloud/api/MessageServerApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1606">
+          <caret line="79" column="22" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/maven/maven_repo/com/baomidou/mybatis-plus-support/2.3/mybatis-plus-support-2.3.jar!/com/baomidou/mybatisplus/service/IService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-server/src/main/java/com/ycn/springcloud/provider/MessageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="248" column="7" lean-forward="true" selection-start-line="248" selection-start-column="7" selection-end-line="248" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="264">
+            <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

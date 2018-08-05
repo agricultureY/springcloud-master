@@ -43,6 +43,14 @@
         <!--bytetcc事务 调用者-->
         <module>bytetcc-consumer</module>
 
+        <!--消息服务中心-->
+        <module>message-server</module>
+        <!--消息检查模块-->
+        <module>message-checker</module>
+        <!--基于消息的事务处理案例-->
+        <module>message-order</module>
+        <module>message-account</module>
+
     </modules>
 
 </project>

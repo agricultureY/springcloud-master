@@ -30,7 +30,7 @@ public class DBConfig {
 
     public DataSource invokeGetDataSource() {
         BasicDataSource bds = new BasicDataSource();
-        bds.setUrl("jdbc:mysql://localhost:3306/account");
+        bds.setUrl("jdbc:mysql://localhost:3306/test");
         bds.setUsername("root");//用户名
         bds.setPassword("root");//密码
         bds.setMaxTotal(50);

@@ -30,7 +30,7 @@ public class DBConfig {
     public DataSource invokeGetDataSource() {
         BasicDataSource bds = new BasicDataSource();
         bds.setDriverClassName("com.mysql.jdbc.Driver");
-        bds.setUrl("jdbc:mysql://127.0.0.1:3306/account");
+        bds.setUrl("jdbc:mysql://127.0.0.1:3306/test");
         bds.setUsername("root");
         bds.setPassword("root");
         bds.setMaxTotal(50);
